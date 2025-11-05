@@ -42,14 +42,14 @@ const Advertisement = () => {
                     setIsInView(entry.isIntersecting);
                     
                     if (entry.isIntersecting) {
-                        // Auto-play the first video when section comes into view
-                        const firstVideoId = videos[0].id;
-                        setPlayingVideo(firstVideoId);
+                        // Auto-play the middle video when section comes into view
+                        const middleVideoId = videos[1].id; // Index 1 is the middle video (6)
+                        setPlayingVideo(middleVideoId);
                         
-                        // Play the first video
-                        const firstVideo = videoRefs.current[firstVideoId];
-                        if (firstVideo) {
-                            firstVideo.play();
+                        // Play the middle video
+                        const middleVideo = videoRefs.current[middleVideoId];
+                        if (middleVideo) {
+                            middleVideo.play();
                         }
                     } else {
                         // Stop all videos when section is out of view
