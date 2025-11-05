@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import video2 from '/src/assets/videos/2.mp4';
 
 const Advertisement = () => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -43,7 +44,7 @@ const Advertisement = () => {
                                     }
                                 }}
                             >
-                                <source src="/src/assets/videos/2.mp4" type="video/mp4" />
+                                <source src={video2} type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                             

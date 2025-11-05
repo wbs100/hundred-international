@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import video3 from '/src/assets/videos/3.mp4';
+import prod1 from '/src/assets/images/prod-1.png';
+import prod2 from '/src/assets/images/prod-2.png';
 
 const LatestWorks = () => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -109,7 +112,7 @@ const LatestWorks = () => {
                                             }
                                         }}
                                     >
-                                        <source src="/src/assets/videos/3.mp4" type="video/mp4" />
+                                        <source src={video3} type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
                                     
@@ -164,7 +167,7 @@ const LatestWorks = () => {
                         <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2">
                             <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                                 <img 
-                                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                                    src={prod1} 
                                     alt="KW Industries Website" 
                                     className="w-full h-full object-cover"
                                 />
@@ -189,7 +192,7 @@ const LatestWorks = () => {
                         <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2">
                             <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                                 <img 
-                                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                                    src={prod2} 
                                     alt="Hela Weda Gedara Website" 
                                     className="w-full h-full object-cover"
                                 />
