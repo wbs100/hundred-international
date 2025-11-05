@@ -1,4 +1,17 @@
+import { useState, useEffect } from 'react';
+
 const Hero = () => {
+    const [currentWord, setCurrentWord] = useState(0);
+    const words = ['Creative', 'Innovative', '100'];
+    
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentWord((prev) => (prev + 1) % words.length);
+        }, 2000); // Change word every 2 seconds
+        
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <section 
             id="home" 
@@ -30,10 +43,19 @@ const Hero = () => {
             {/* Content */}
             <div className="container mx-auto px-6 relative z-20">
                 <div className="max-w-2xl">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-6">Your Global Business Partner</h1>
-                    <p className="text-xl md:text-2xl mb-8">Premium international services tailored to your needs with elegance and efficiency.</p>
+                    <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                        We are {' '}
+                        <span 
+                            className="text-orange-500 inline-block transition-all duration-500 ease-in-out animate-pulse"
+                            key={currentWord}
+                        >
+                            {words[currentWord]}
+                        </span>{' '}
+                        
+                    </h1>
+                    <p className="text-xl md:text-2xl mb-8">If You Think, You are the Game Changer! Always.</p>
                     <div className="flex flex-wrap gap-4">
-                        <a href="#services" className="bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-medium transition duration-300">Our Services</a>
+                        <a href="#services" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition duration-300">Our Services</a>
                         <a href="#contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-medium transition duration-300">Get in Touch</a>
                     </div>
                 </div>

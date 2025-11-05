@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-white py-12">
+        <footer className="bg-gray-900 text-white py-6">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div>
@@ -58,14 +58,14 @@ const Footer = () => {
                     </div>
                 </div>
                 
-                <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-                    <p className="text-gray-400 mb-4 md:mb-0">© 2025 Hundred International. All rights reserved.</p>
-                    <div className="flex space-x-6">
+                <div className="border-t border-gray-800 mt-12 pt-5 flex flex-col md:flex-row justify-center items-center">
+                    <p className="text-gray-400 text-center mb-4 md:mb-0">2025 © All Rights Reserved | 100 International | Designed & Developed by Silicon Radon Networks (Pvt) Ltd.</p>
+                    {/* <div className="flex space-x-6">
                         <a href="#" className="text-gray-400 hover:text-blue-400 transition duration-300">English</a>
                         <a href="#" className="text-gray-400 hover:text-blue-400 transition duration-300">Español</a>
                         <a href="#" className="text-gray-400 hover:text-blue-400 transition duration-300">Français</a>
                         <a href="#" className="text-gray-400 hover:text-blue-400 transition duration-300">中文</a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>
