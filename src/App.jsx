@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import Navbar from './components/navbar.jsx';
 import Hero from './components/hero.jsx';
 import Services from './components/services.jsx';
@@ -98,6 +99,18 @@ const App = () => {
             </main>
             
             <Footer />
+            
+            <FloatingWhatsApp 
+                phoneNumber="94750605203"
+                accountName="100 International"
+                avatar="/logo.png"
+                statusMessage="Typically replies within 1 hour"
+                chatMessage="Hello! 👋 How can we help you?"
+                placeholder="Type a message..."
+                allowClickAway={true}
+                notification={true}
+                notificationDelay={60}
+            />
         </div>
     );
 };
