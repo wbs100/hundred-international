@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import video1 from '/src/assets/videos/ad/1.mp4';
@@ -183,14 +183,9 @@ const Advertisement = () => {
                     {/* Mobile Swiper - Hidden on Desktop */}
                     <div className="md:hidden">
                         <Swiper
-                            modules={[Autoplay, Pagination]}
+                            modules={[Pagination]}
                             spaceBetween={20}
                             slidesPerView={1}
-                            autoplay={{
-                                delay: 3000,
-                                disableOnInteraction: false,
-                                pauseOnMouseEnter: true
-                            }}
                             pagination={{ 
                                 clickable: true,
                                 dynamicBullets: true
