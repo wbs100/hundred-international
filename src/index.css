@@ -1,20 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/src/assets/fonts/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('/src/assets/fonts/futura.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
-    --primary: #1a365d;
-    --secondary: #c53030;
-    --accent: #ecc94b;
+    --primary: #f97316;
+    --secondary: #ea580c;
+    --accent: #fb923c;
     --light: #f7fafc;
     --dark: #2d3748;
+    --title-font: 'Helvetica', 'Montserrat', 'Arial', sans-serif;
+    --body-font: 'Futura', 'Montserrat', 'Verdana', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--body-font);
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+}
+
+/* Apply fonts to specific Tailwind classes */
+.font-title {
+    font-family: var(--title-font) !important;
+}
+
+.font-body {
+    font-family: var(--body-font) !important;
 }
 
 .section-padding {
-    @apply py-16 md:py-24 lg:py-32;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .section-padding {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-padding {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
 }
 
 .gradient-text {
