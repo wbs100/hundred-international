@@ -12,7 +12,7 @@ const Advertisement = () => {
         <section className="py-20 bg-black text-white">
             <div className="container mx-auto px-6">
                 {/* Header */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-16 scroll-animate">
                     <div className="inline-block bg-orange-500 text-black px-4 py-2 rounded-full text-sm font-medium mb-4 uppercase tracking-wide">
                         Featured Advertisement
                     </div>
@@ -25,7 +25,7 @@ const Advertisement = () => {
                 </div>
 
                 {/* Video Section */}
-                <div className="max-w-4xl mx-auto">
+                <div className="max-w-4xl mx-auto scroll-animate delay-200">
                     <div className="bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30">
                         <div className="relative aspect-video bg-black rounded-xl overflow-hidden">
                             {/* Video Player */}
