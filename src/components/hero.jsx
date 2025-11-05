@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from 'react';
 import heroVideo from '/src/assets/videos/hero.mp4';
 
@@ -31,7 +32,7 @@ const Hero = () => {
                 <div 
                     className="absolute top-0 left-0 w-full h-full"
                     style={{
-                        background: 'url("https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80")',
+                        background: 'url("/images/prod-1.png")',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center'
                     }}
@@ -44,7 +45,7 @@ const Hero = () => {
             {/* Content */}
             <div className="container mx-auto px-6 relative z-20">
                 <div className="max-w-2xl">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                    <h1 className="text-4xl md:text-6xl font-bold mb-6 font-title">
                         We are {' '}
                         <span 
                             className="text-orange-500 inline-block transition-all duration-500 ease-in-out animate-pulse"
@@ -54,7 +55,7 @@ const Hero = () => {
                         </span>{' '}
                         
                     </h1>
-                    <p className="text-xl md:text-2xl mb-8">If You Think, You are the Game Changer! Always.</p>
+                    <p className="text-xl md:text-2xl mb-8 font-paragraph">If You Think, You are the Game Changer! Always.</p>
                     <div className="flex flex-wrap gap-4">
                         <a href="#services" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition duration-300">Our Services</a>
                         <a href="#contact" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-medium transition duration-300">Get in Touch</a>

@@ -27,13 +27,13 @@ const Contact = () => {
         <section id="contact" className="py-20 bg-white">
             <div className="container mx-auto px-6">
                 <div className="max-w-4xl mx-auto">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-16 scroll-animate">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get In Touch</h2>
                         <p className="text-xl text-gray-600">Ready to expand your business globally? Contact us today.</p>
                     </div>
                     
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                        <div>
+                        <div className="scroll-animate-left">
                             <h3 className="text-xl font-bold text-gray-800 mb-4">Contact Information</h3>
                             <div className="space-y-4">
                                 <div className="flex items-start">
@@ -71,7 +71,7 @@ const Contact = () => {
                             </div>
                         </div>
                         
-                        <form className="space-y-6" onSubmit={handleSubmit}>
+                        <form className="space-y-6 scroll-animate-right" onSubmit={handleSubmit}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Name</label>

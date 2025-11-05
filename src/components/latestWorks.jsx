@@ -14,7 +14,7 @@ const LatestWorks = () => {
         <section className="py-20 bg-black text-white">
             <div className="container mx-auto px-6">
                 {/* Header */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-16 scroll-animate">
                     <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-4">
                         Our Latest Works
                     </h2>
@@ -25,7 +25,7 @@ const LatestWorks = () => {
                 </div>
 
                 {/* Main Content */}
-                <div className="max-w-6xl mx-auto">
+                <div className="max-w-6xl mx-auto scroll-animate delay-200">
                     <div className="bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             
@@ -151,7 +151,7 @@ const LatestWorks = () => {
                 {/* Website Products Portfolio Section */}
                 <div className="mt-20">
                     {/* Portfolio Header */}
-                    <div className="text-center mb-12">
+                    <div className="text-center mb-12 scroll-animate">
                         <div className="inline-block bg-orange-500 text-black px-4 py-2 rounded-full text-sm font-medium mb-4 uppercase tracking-wide">
                             📊 Latest Website Products
                         </div>
@@ -164,7 +164,7 @@ const LatestWorks = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                         
                         {/* Project 1 - KW Industries */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2">
+                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-100">
                             <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                                 <img 
                                     src={prod1} 
@@ -189,7 +189,7 @@ const LatestWorks = () => {
                         </div>
 
                         {/* Project 2 - Hela Weda Gedara */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2">
+                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-200">
                             <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                                 <img 
                                     src={prod2} 
@@ -214,7 +214,7 @@ const LatestWorks = () => {
                         </div>
 
                         {/* Project 3 - Smart POS System */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2">
+                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-300">
                             <div className="aspect-[4/3] bg-gradient-to-br from-orange-900 to-orange-700 relative overflow-hidden flex items-center justify-center">
                                 <div className="text-6xl text-orange-300">📱</div>
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -237,7 +237,7 @@ const LatestWorks = () => {
                     </div>
 
                     {/* View Complete Portfolio Button */}
-                    <div className="text-center">
+                    <div className="text-center scroll-animate delay-400">
                         <button className="bg-transparent border-2 border-orange-500 text-orange-400 px-8 py-3 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-all duration-300 inline-flex items-center space-x-2">
                             <span>📊</span>
                             <span>View Complete Portfolio</span>

@@ -1,50 +1,112 @@
 const Testimonials = () => {
-    const testimonials = [
+    const teamMembers = [
         {
-            quote: "Hundred International transformed our international supply chain with their expertise. Their team is professional and responsive.",
-            name: "John Smith",
-            title: "CEO, TechGlobal Inc.",
+            name: "Mayura Athukorala",
+            title: "Our CEO",
+            quote: "Great people make great companies. Here we are projecting our creativity for all the time.",
             avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
         },
         {
-            quote: "Their financial services helped us navigate complex cross-border transactions with ease. Highly recommended!",
-            name: "Maria Gonzalez",
-            title: "CFO, EuroTrade Group",
-            avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-        },
-        {
-            quote: "The relocation service made our international move seamless. Every detail was handled professionally.",
-            name: "David Chen",
-            title: "Director, Asia-Pacific Ops",
+            name: "Chamathka Prasad",
+            title: "Our CTO", 
+            quote: "Imagination creates reality, but we beautify your reality.",
             avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
         }
     ];
 
+    const stats = [
+        {
+            icon: "🎯",
+            number: "50+",
+            label: "Projects Completed"
+        },
+        {
+            icon: "😊",
+            number: "100+", 
+            label: "Happy Clients"
+        },
+        {
+            icon: "🎓",
+            number: "200+",
+            label: "Students Trained"
+        },
+        {
+            icon: "⭐",
+            number: "5+",
+            label: "Years Experience"
+        }
+    ];
+
     return (
-        <section id="about" className="py-20">
+        <section id="about" className="py-20 bg-black text-white">
             <div className="container mx-auto px-6">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Trusted Worldwide</h2>
-                    <p className="text-xl text-gray-600 max-w-2xl mx-auto">What our international partners say about our services</p>
+                {/* Header */}
+                <div className="text-center mb-16 scroll-animate">
+                    <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-4 font-title">
+                        What We Do & Who We Are
+                    </h2>
+                    <div className="w-20 h-1 bg-orange-500 mx-auto"></div>
                 </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {testimonials.map((testimonial, index) => (
-                        <div key={index} className="bg-white rounded-lg p-8 shadow-lg">
-                            <div className="text-blue-700 mb-4 opacity-10 text-3xl">
-                                💬
-                            </div>
-                            <p className="text-gray-600 mb-6">"{testimonial.quote}"</p>
-                            <div className="flex items-center">
+
+                {/* Team Members */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16 max-w-4xl mx-auto scroll-animate delay-100">
+                    {teamMembers.map((member, index) => (
+                        <div key={index} className="flex items-start space-x-6">
+                            <div className="flex-shrink-0">
                                 <img 
-                                    src={testimonial.avatar} 
-                                    alt={testimonial.name} 
-                                    className="w-12 h-12 rounded-full mr-4"
+                                    src={member.avatar}
+                                    alt={member.name}
+                                    className="w-20 h-20 rounded-full border-2 border-orange-500/30"
                                 />
-                                <div>
-                                    <h4 className="font-bold text-gray-800">{testimonial.name}</h4>
-                                    <p className="text-gray-500 text-sm">{testimonial.title}</p>
-                                </div>
+                            </div>
+                            <div className="flex-1">
+                                <p className="text-gray-300 mb-4 font-paragraph leading-relaxed">
+                                    {member.quote}
+                                </p>
+                                <h3 className="text-orange-400 font-bold text-lg font-title">{member.name}</h3>
+                                <p className="text-gray-400 text-sm font-paragraph">{member.title}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+
+                {/* Our Focus Section */}
+                <div className="text-center mb-16 scroll-animate delay-200">
+                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 font-title">
+                        OUR FOCUS
+                    </h3>
+                    <div className="max-w-3xl mx-auto space-y-4">
+                        <p className="text-gray-300 font-paragraph">
+                            AT THE CORE,
+                        </p>
+                        <p className="text-orange-400 text-xl font-bold font-title">
+                            WE MAKE COMPANIES FOR YOUR INNOVATIVE IDEAS.
+                        </p>
+                        <p className="text-gray-300 font-paragraph">
+                            BUT THE POINT IS
+                        </p>
+                        <p className="text-orange-400 text-xl font-bold font-title">
+                            WE SELL HERE OUR CREATIVITY
+                        </p>
+                        <p className="text-gray-300 font-paragraph">
+                            TO ENTER THE BUSINESS WORLD.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Statistics */}
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto scroll-animate delay-300">
+                    {stats.map((stat, index) => (
+                        <div 
+                            key={index} 
+                            className="bg-gradient-to-br from-orange-900/20 to-black/50 p-6 rounded-2xl border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 text-center"
+                        >
+                            <div className="text-3xl mb-3">{stat.icon}</div>
+                            <div className="text-2xl md:text-3xl font-bold text-orange-400 mb-2 font-title">
+                                {stat.number}
+                            </div>
+                            <div className="text-gray-300 text-sm font-paragraph">
+                                {stat.label}
                             </div>
                         </div>
                     ))}
