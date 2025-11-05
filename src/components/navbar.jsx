@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from '/src/assets/logo.png';
 
 const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
                 <div className="flex justify-between items-center">
                     <a href="#home" className="flex items-center space-x-3">
                         <img 
-                            src="/src/assets/logo.png" 
+                            src={logo} 
                             alt="Hundred International Logo" 
                             className="h-20 w-auto"
                         />
