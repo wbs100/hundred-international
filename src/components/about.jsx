@@ -318,18 +318,7 @@ const About = () => {
                 </div>
             </section>
 
-            {/* Footer */}
-            <footer className="py-12 border-t border-slate-800">
-                <div className="container mx-auto px-6 text-center">
-                    <h3 className="font-title text-2xl md:text-3xl font-bold text-white mb-6">We Are 100</h3>
-                    <div className="flex justify-center gap-8 mb-6">
-                        <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors duration-300">Privacy</a>
-                        <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors duration-300">Terms</a>
-                        <a href="/contact" className="text-gray-400 hover:text-orange-500 transition-colors duration-300">Contact</a>
-                    </div>
-                    <p className="text-gray-500 text-sm">Copyright © 2025 100-International</p>
-                </div>
-            </footer>
+           
         </div>
     );
 };
