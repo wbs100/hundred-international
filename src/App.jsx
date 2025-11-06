@@ -8,6 +8,8 @@ import Footer from './components/footer.jsx';
 
 import Home from './pages/home.jsx';
 import Services from './pages/services.jsx';
+import Contact from './pages/contact.jsx';
+import Team from './pages/team.jsx';
 
 const App = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -48,6 +50,8 @@ const App = () => {
                 <Switch>
                     <Route path="/" component={Home} />
                     <Route path="/services" component={Services} />
+                    <Route path="/team" component={Team} />
+                    <Route path="/contact" component={Contact} />
                 </Switch>
 
             </main>
