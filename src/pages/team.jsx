@@ -4,11 +4,14 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import hero1 from '/src/assets/images/webhero1.jpg';
+import hero2 from '/src/assets/images/webhero2.jpg';
+
 const Team = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const heroImages = [
-        '/src/assets/images/webhero1.jpg',
-        '/src/assets/images/webhero2.jpg'
+        hero1,
+        hero2
     ];
 
     useEffect(() => {
