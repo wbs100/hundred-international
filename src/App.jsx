@@ -7,6 +7,7 @@ import Navbar from './components/navbar.jsx';
 import Footer from './components/footer.jsx';
 
 import Home from './pages/home.jsx';
+import About from './pages/about.jsx';
 import Services from './pages/services.jsx';
 import Contact from './pages/contact.jsx';
 import Team from './pages/team.jsx';
@@ -49,6 +50,7 @@ const App = () => {
 
                 <Switch>
                     <Route path="/" component={Home} />
+                    <Route path="/about" component={About} />
                     <Route path="/services" component={Services} />
                     <Route path="/team" component={Team} />
                     <Route path="/contact" component={Contact} />
