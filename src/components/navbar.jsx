@@ -1,12 +1,35 @@
 "use client";
 import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'wouter';
 
 const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [location] = useLocation();
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+
+    // Function to get active section based on current route
+    const getActiveSection = () => {
+        // Check for hash-based navigation first (for same-page sections)
+        if (window.location.hash) {
+            return window.location.hash.substring(1); // Remove the # symbol
+        }
+        
+        // Check for route-based navigation
+        if (location === '/') return 'home';
+        if (location.startsWith('/services')) return 'services';
+        if (location.startsWith('/academy')) return 'academy';
+        if (location.startsWith('/advertisement')) return 'advertisement';
+        if (location.startsWith('/about')) return 'about';
+        if (location.startsWith('/team')) return 'team';
+        if (location.startsWith('/contact')) return 'contact';
+        
+        return activeSection || 'home';
+    };
+
+    const currentActiveSection = getActiveSection();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -26,87 +49,87 @@ const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
         }`}>
             <div className="container mx-auto px-6 py-1">
                 <div className="flex justify-between items-center">
-                    <a href="#home" className="flex items-center space-x-3">
+                    <Link href="#home" className="flex items-center space-x-3">
                         <img 
                             src="/logo.png" 
                             alt="Hundred International Logo" 
                             className="h-20 w-auto"
                         />
                         <span className="text-xl font-bold text-white"></span>
-                    </a>
+                    </Link>
                     
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex space-x-2">
-                        <a 
-                            href="#home" 
+                        <Link 
+                            href="/" 
                             className={`relative px-4 py-2 rounded-md transition-all duration-300 font-title ${
-                                activeSection === 'home' 
+                                currentActiveSection === 'home' 
                                     ? 'bg-orange-500 text-white font-medium' 
                                     : 'text-white hover:bg-orange-500 hover:bg-opacity-50 hover:text-orange-300'
                             }`}
                         >
                             Home
-                        </a>
-                        <a 
-                            href="#services" 
+                        </Link>
+                        <Link
+                            href="/services" 
                             className={`relative px-4 py-2 rounded-md transition-all duration-300 font-title ${
-                                activeSection === 'services' 
+                                currentActiveSection === 'services' 
                                     ? 'bg-orange-500 text-white font-medium' 
                                     : 'text-white hover:bg-orange-500 hover:bg-opacity-50 hover:text-orange-300'
                             }`}
                         >
                             Web/App/Software
-                        </a>
-                        <a 
-                            href="#academy" 
+                        </Link>
+                        <Link
+                            href="/academy" 
                             className={`relative px-4 py-2 rounded-md transition-all duration-300 font-title ${
-                                activeSection === 'academy' 
+                                currentActiveSection === 'academy' 
                                     ? 'bg-orange-500 text-white font-medium' 
                                     : 'text-white hover:bg-orange-500 hover:bg-opacity-50 hover:text-orange-300'
                             }`}
                         >
                             Academy
-                        </a>
-                        <a 
-                            href="#advertisement" 
+                        </Link>
+                        <Link
+                            href="/advertisement" 
                             className={`relative px-4 py-2 rounded-md transition-all duration-300 font-title ${
-                                activeSection === 'advertisement' 
+                                currentActiveSection === 'advertisement' 
                                     ? 'bg-orange-500 text-white font-medium' 
                                     : 'text-white hover:bg-orange-500 hover:bg-opacity-50 hover:text-orange-300'
                             }`}
                         >
                             Advertisement
-                        </a>
-                        <a 
-                            href="#about" 
+                        </Link>
+                        <Link
+                            href="/about" 
                             className={`relative px-4 py-2 rounded-md transition-all duration-300 font-title ${
-                                activeSection === 'about' 
+                                currentActiveSection === 'about' 
                                     ? 'bg-orange-500 text-white font-medium' 
                                     : 'text-white hover:bg-orange-500 hover:bg-opacity-50 hover:text-orange-300'
                             }`}
                         >
                             About
-                        </a>
-                        <a 
-                            href="#team" 
+                        </Link>
+                        <Link
+                            href="/team" 
                             className={`relative px-4 py-2 rounded-md transition-all duration-300 font-title ${
-                                activeSection === 'team' 
+                                currentActiveSection === 'team' 
                                     ? 'bg-orange-500 text-white font-medium' 
                                     : 'text-white hover:bg-orange-500 hover:bg-opacity-50 hover:text-orange-300'
                             }`}
                         >
                             Team
-                        </a>
-                        <a 
-                            href="#contact" 
+                        </Link>
+                        <Link
+                            href="/contact" 
                             className={`relative px-4 py-2 rounded-md transition-all duration-300 font-title ${
-                                activeSection === 'contact' 
+                                currentActiveSection === 'contact' 
                                     ? 'bg-orange-500 text-white font-medium' 
                                     : 'text-white hover:bg-orange-500 hover:bg-opacity-50 hover:text-orange-300'
                             }`}
                         >
                             Contact
-                        </a>
+                        </Link>
                     </div>
                     
                     {/* Mobile menu button */}
@@ -150,83 +173,83 @@ const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
                         
                         {/* Menu Items */}
                         <div className="flex flex-col p-6 space-y-4">
-                            <a 
-                                href="#home" 
+                            <Link
+                                href="/" 
                                 className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${
-                                    activeSection === 'home' 
+                                    currentActiveSection === 'home' 
                                         ? 'bg-orange-500 text-white font-medium transform ' 
                                         : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
                                 }`}
                                 onClick={() => setMenuOpen(false)}
                             >
                                 Home
-                            </a>
-                            <a 
-                                href="#services" 
+                            </Link>
+                            <Link
+                                href="/services" 
                                 className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${
-                                    activeSection === 'services' 
+                                    currentActiveSection === 'services' 
                                         ? 'bg-orange-500 text-white font-medium transform ' 
                                         : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
                                 }`}
                                 onClick={() => setMenuOpen(false)}
                             >
                                 Web/App/Software
-                            </a>
-                            <a 
-                                href="#academy" 
+                            </Link>
+                            <Link
+                                href="/academy" 
                                 className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${
-                                    activeSection === 'academy' 
+                                    currentActiveSection === 'academy' 
                                         ? 'bg-orange-500 text-white font-medium transform ' 
                                         : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
                                 }`}
                                 onClick={() => setMenuOpen(false)}
                             >
                                 Academy
-                            </a>
-                            <a 
-                                href="#advertisement" 
+                            </Link>
+                            <Link
+                                href="/advertisement" 
                                 className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${
-                                    activeSection === 'advertisement' 
+                                    currentActiveSection === 'advertisement' 
                                         ? 'bg-orange-500 text-white font-medium transform ' 
                                         : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
                                 }`}
                                 onClick={() => setMenuOpen(false)}
                             >
                                 Advertisement
-                            </a>
-                            <a 
-                                href="#about" 
+                            </Link>
+                            <Link
+                                href="/about" 
                                 className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${
-                                    activeSection === 'about' 
+                                    currentActiveSection === 'about' 
                                         ? 'bg-orange-500 text-white font-medium transform ' 
                                         : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
                                 }`}
                                 onClick={() => setMenuOpen(false)}
                             >
                                 About
-                            </a>
-                            <a 
-                                href="#team" 
+                            </Link>
+                            <Link
+                                href="/team" 
                                 className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${
-                                    activeSection === 'team' 
+                                    currentActiveSection === 'team' 
                                         ? 'bg-orange-500 text-white font-medium transform ' 
                                         : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
                                 }`}
                                 onClick={() => setMenuOpen(false)}
                             >
                                 Team
-                            </a>
-                            <a 
-                                href="#contact" 
+                            </Link>
+                            <Link
+                                href="/contact" 
                                 className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${
-                                    activeSection === 'contact' 
+                                    currentActiveSection === 'contact' 
                                         ? 'bg-orange-500 text-white font-medium transform ' 
                                         : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
                                 }`}
                                 onClick={() => setMenuOpen(false)}
                             >
                                 Contact
-                            </a>
+                            </Link>
                         </div>
                         
                         {/* Menu Footer */}
