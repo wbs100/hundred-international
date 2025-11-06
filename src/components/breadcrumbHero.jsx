@@ -185,9 +185,9 @@ const BreadcrumbHero = ({
                         </h1>
                         
                         <div className="mb-8 scroll-animate delay-200">
-                            <h2 className="text-xl md:text-2xl font-medium text-gray-300 mb-4">
+                            {/* <h2 className="text-xl md:text-2xl font-medium text-gray-300 mb-4">
                                 NATIVE & <span className="text-orange-400 font-bold">CROSS-PLATFORM</span>
-                            </h2>
+                            </h2> */}
                             <p className="text-lg md:text-xl text-gray-300 max-w-2xl leading-relaxed">
                                 {subtitle}
                             </p>
