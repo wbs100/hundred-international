@@ -262,6 +262,141 @@ export default function Advertisement() {
             <CustomHR variant="gradient" />
             <CustomHR variant="gradient" />
 
+            {/* Extended & Custom Ad Rates Section */}
+            <section className="py-16 bg-black text-white">
+                <div className="container mx-auto px-6">
+                    <div className="max-w-6xl mx-auto">
+
+                        {/* Extended Ad Rates */}
+                        <div className="mb-16 scroll-animate">
+                            <div className="text-center mb-12">
+                                <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
+                                    📈 Extended & Custom Ad Rates
+                                </h2>
+                                <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                                    For advertisements requiring more runtime, our pricing scales clearly:
+                                </p>
+                            </div>
+
+                            {/* Extended Rates Grid */}
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                                {/* 1 Minute Ad */}
+                                <div className="bg-gradient-to-br from-purple-900/20 to-black/50 rounded-2xl p-6 border border-purple-500/30 relative overflow-hidden scroll-animate delay-100">
+                                    <div className="absolute top-0 right-0 w-24 h-24 opacity-10">
+                                        <div className="w-full h-full bg-purple-500 rounded-full blur-2xl"></div>
+                                    </div>
+                                    <div className="relative z-10 text-center">
+                                        <div className="w-12 h-12 mx-auto mb-4 bg-purple-500 rounded-full flex items-center justify-center">
+                                            <span className="text-lg">⏱️</span>
+                                        </div>
+                                        <h3 className="text-xl font-bold text-purple-400 font-title mb-2">1 Minute Ad</h3>
+                                        <div className="text-3xl font-bold text-purple-400">LKR 25,000</div>
+                                    </div>
+                                </div>
+
+                                {/* 1.5 Minute Ad */}
+                                <div className="bg-gradient-to-br from-pink-900/20 to-black/50 rounded-2xl p-6 border border-pink-500/30 relative overflow-hidden scroll-animate delay-200">
+                                    <div className="absolute top-0 right-0 w-24 h-24 opacity-10">
+                                        <div className="w-full h-full bg-pink-500 rounded-full blur-2xl"></div>
+                                    </div>
+                                    <div className="relative z-10 text-center">
+                                        <div className="w-12 h-12 mx-auto mb-4 bg-pink-500 rounded-full flex items-center justify-center">
+                                            <span className="text-lg">⏰</span>
+                                        </div>
+                                        <h3 className="text-xl font-bold text-pink-400 font-title mb-2">1 Minute 30 Seconds Ad</h3>
+                                        <div className="text-3xl font-bold text-pink-400">LKR 35,000</div>
+                                    </div>
+                                </div>
+
+                                {/* 2 Minute Ad */}
+                                <div className="bg-gradient-to-br from-indigo-900/20 to-black/50 rounded-2xl p-6 border border-indigo-500/30 relative overflow-hidden scroll-animate delay-300">
+                                    <div className="absolute top-0 right-0 w-24 h-24 opacity-10">
+                                        <div className="w-full h-full bg-indigo-500 rounded-full blur-2xl"></div>
+                                    </div>
+                                    <div className="relative z-10 text-center">
+                                        <div className="w-12 h-12 mx-auto mb-4 bg-indigo-500 rounded-full flex items-center justify-center">
+                                            <span className="text-lg">🕐</span>
+                                        </div>
+                                        <h3 className="text-xl font-bold text-indigo-400 font-title mb-2">2 Minute Ad</h3>
+                                        <div className="text-3xl font-bold text-indigo-400">LKR 45,000</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Premium Cinematic Projects */}
+                        <div className="scroll-animate delay-400">
+                            <div className="text-center mb-12">
+                                <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
+                                    🎬 Premium Cinematic Projects
+                                </h2>
+                                <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                                    Ready for a full-scale production? We bring cinematic quality to your biggest ideas.
+                                </p>
+                            </div>
+
+                            {/* Premium Projects Grid */}
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                                {/* Short Films Premium */}
+                                <div className="bg-gradient-to-br from-orange-900/30 to-black/50 rounded-3xl p-8 border border-orange-500/40 relative overflow-hidden scroll-animate delay-500">
+                                    <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                                        <div className="w-full h-full bg-orange-500 rounded-full blur-3xl"></div>
+                                    </div>
+                                    <div className="relative z-10 text-center">
+                                        <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center">
+                                            <span className="text-2xl">🎬</span>
+                                        </div>
+                                        <h3 className="text-2xl font-bold text-orange-400 font-title mb-2">Short Films</h3>
+                                        <p className="text-gray-300 text-sm mb-4">(3 - 15 Minutes)</p>
+                                        <div className="text-4xl font-bold text-orange-400 mb-2">LKR 75,000</div>
+                                        <p className="text-orange-300 text-sm mb-6 italic">onwards</p>
+                                        <p className="text-gray-300 text-sm leading-relaxed">
+                                            Professional storytelling, documentaries, full narrative content.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                {/* Music Videos Premium */}
+                                <div className="bg-gradient-to-br from-blue-900/30 to-black/50 rounded-3xl p-8 border border-blue-500/40 relative overflow-hidden scroll-animate delay-600">
+                                    <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                                        <div className="w-full h-full bg-blue-500 rounded-full blur-3xl"></div>
+                                    </div>
+                                    <div className="relative z-10 text-center">
+                                        <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center">
+                                            <span className="text-2xl">🎵</span>
+                                        </div>
+                                        <h3 className="text-2xl font-bold text-blue-400 font-title mb-2">Music Videos</h3>
+                                        <p className="text-gray-300 text-sm mb-4">(3 - 5 Minutes)</p>
+                                        <div className="text-4xl font-bold text-blue-400 mb-2">LKR 60,000</div>
+                                        <p className="text-blue-300 text-sm mb-6 italic">onwards</p>
+                                        <p className="text-gray-300 text-sm leading-relaxed">
+                                            High-energy visuals, creative direction, choreography, artistic post-production.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Important Note */}
+                            <div className="mt-12 scroll-animate delay-700">
+                                <div className="bg-gradient-to-r from-green-900/30 to-teal-900/30 rounded-2xl p-6 border border-green-500/40 max-w-4xl mx-auto">
+                                    <div className="flex items-start gap-4">
+                                        <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                            <span className="text-black text-lg">💡</span>
+                                        </div>
+                                        <div className="text-sm text-gray-300 leading-relaxed">
+                                            <strong className="text-green-400">Note:</strong> The duration and 'onwards' pricing for Short Films and Music Videos reflect the custom effort involved in script development, location scouting, crew, and post-production. We promise, it's worth it.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <CustomHR variant="gradient" />
+            <CustomHR variant="gradient" />
+
             {/* The Power of Our Team + AI Section */}
             <section className="py-16 bg-black text-white">
                 <div className="container mx-auto px-6">
