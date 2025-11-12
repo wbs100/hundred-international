@@ -7,6 +7,11 @@ import 'swiper/css/pagination';
 import hero1 from '/src/assets/images/webhero1.jpg';
 import hero2 from '/src/assets/images/webhero2.jpg';
 
+import mayura from '/src/assets/images/team/mayura.png';
+import eranda from '/src/assets/images/team/eranda.jpg';
+import chamathka from '/src/assets/images/team/chamathka.jpg';
+import damian from '/src/assets/images/team/damian.png';
+
 const Team = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const heroImages = [
@@ -27,28 +32,28 @@ const Team = () => {
             title: "Chief Executive Officer (CEO)",
             subtitle: "Co-Director Of Content Development",
             description: "Visionary leader driving our mission to create platforms that help businesses flourish globally. Focused on strategic growth and innovation.",
-            image: "/assets/team/mayura.jpg"
+            image: mayura
         },
         {
             name: "Chamathka Prasad",
             title: "Chief Technical Officer (CTO)",
             subtitle: "",
             description: "Leading technical innovation and development strategies. Expert in cutting-edge technologies and system architecture.",
-            image: "/assets/team/chamathka.jpg"
+            image: chamathka
         },
         {
             name: "Eranda Chamara",
             title: "Chief Creative Officer (CCO)",
             subtitle: "Co-Director Of Content Development",
             description: "Creative mastermind behind our innovative designs and user experiences. Specializes in brand development and creative strategy.",
-            image: "/assets/team/eranda.jpg"
+            image: eranda
         },
         {
             name: "Damian Fernando",
             title: "Chief Operating Officer (COO)",
             subtitle: "Co-Director Of Content Development",
             description: "Operational excellence leader ensuring smooth business processes and efficient project delivery across all departments.",
-            image: "/assets/team/damian.jpg"
+            image: damian
         }
     ];
 
@@ -170,7 +175,7 @@ const Team = () => {
                                         <div className="flex justify-center mb-6">
                                             <div className="w-40 h-40 rounded-full overflow-hidden bg-slate-700 border-4 border-orange-500/30 shadow-lg shadow-orange-500/20">
                                                 <img 
-                                                    src={`https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&size=200&background=f97316&color=fff&bold=true`}
+                                                    src={member.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&size=200&background=f97316&color=fff&bold=true`}
                                                     alt={member.name}
                                                     className="w-full h-full object-cover"
                                                 />
@@ -194,8 +199,8 @@ const Team = () => {
                     </div>
                 </div>
 
-                {/* Non-Executive Contributors Section */}
-                <div className="mb-20">
+                {/* Non-Executive Contributors Section (hidden) */}
+                <div className="mb-20 hidden">
                     <h2 className="font-title text-3xl md:text-4xl font-bold text-white text-center mb-12">
                         Non-Executive Contributors
                     </h2>

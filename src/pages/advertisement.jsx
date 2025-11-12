@@ -26,8 +26,8 @@ export default function Advertisement() {
                 autoplayDelay={3000}
             />
 
-            {/* Express AI Content Pricing Section */}
-            <section className="py-16 bg-black text-white">
+            {/* Express AI Content Pricing Section (hidden) */}
+            <section className="py-16 bg-black text-white hidden">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
@@ -153,8 +153,8 @@ export default function Advertisement() {
                 </div>
             </section>
 
-            {/* Premium Production Services Section */}
-            <section className="pb-16 bg-black text-white">
+            {/* Premium Production Services Section (hidden) */}
+            <section className="pb-16 bg-black text-white hidden">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
