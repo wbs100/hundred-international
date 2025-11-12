@@ -289,7 +289,7 @@ export default function Advertisement() {
                                         <div className="w-12 h-12 mx-auto mb-4 bg-purple-500 rounded-full flex items-center justify-center">
                                             <span className="text-lg">⏱️</span>
                                         </div>
-                                        <h3 className="text-xl font-bold text-purple-400 font-title mb-2">1 Minute Ad</h3>
+                                        <h3 className="text-xl font-bold text-purple-400 font-title mb-2">1 Minute Ad (Upto 1 Min)</h3>
                                         <div className="text-3xl font-bold text-purple-400">LKR 25,000</div>
                                     </div>
                                 </div>
