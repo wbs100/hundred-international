@@ -9,8 +9,11 @@ import Footer from './components/footer.jsx';
 import Home from './pages/home.jsx';
 import About from './pages/about.jsx';
 import Services from './pages/services.jsx';
-import Contact from './pages/contact.jsx';
+import Academy from './pages/academy.jsx';
 import Team from './pages/team.jsx';
+import Contact from './pages/contact.jsx';
+import About from './pages/about.jsx';
+import Advertisement from './pages/advertisement.jsx';
 
 const App = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -52,8 +55,10 @@ const App = () => {
                     <Route path="/" component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/services" component={Services} />
+                    <Route path="/academy" component={Academy} />
                     <Route path="/team" component={Team} />
                     <Route path="/contact" component={Contact} />
+                    <Route path="/advertisement" component={Advertisement} />
                 </Switch>
 
             </main>
