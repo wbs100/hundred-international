@@ -7,6 +7,7 @@ import Navbar from './components/navbar.jsx';
 import Footer from './components/footer.jsx';
 
 import Home from './pages/home.jsx';
+import About from './pages/about.jsx';
 import Services from './pages/services.jsx';
 import Academy from './pages/academy.jsx';
 import Team from './pages/team.jsx';
