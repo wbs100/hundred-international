@@ -5,8 +5,8 @@ import video1 from "/src/assets/videos/6.mp4";
 import video2 from "/src/assets/videos/7.mp4";
 import video3 from "/src/assets/videos/ad/6.mp4";
 
-import certificate from "/src/assets/images/certificate.png";
-import mayura from "/src/assets/images/mayura.png";
+//import certificate from "/src/assets/images/certificate.png";
+//import mayura from "/src/assets/images/mayura.png";
 
 export default function Advertisement() {
     return (
@@ -290,7 +290,7 @@ export default function Advertisement() {
                                             <span className="text-lg">⏱️</span>
                                         </div>
                                         <h3 className="text-xl font-bold text-purple-400 font-title mb-2">1 Minute Ad (Upto 1 Min)</h3>
-                                        <div className="text-3xl font-bold text-purple-400">LKR 25,000</div>
+                                        <div className="text-3xl font-bold text-purple-400">LKR 30,000</div>
                                     </div>
                                 </div>
 
@@ -304,7 +304,7 @@ export default function Advertisement() {
                                             <span className="text-lg">⏰</span>
                                         </div>
                                         <h3 className="text-xl font-bold text-pink-400 font-title mb-2">1 Minute 30 Seconds Ad</h3>
-                                        <div className="text-3xl font-bold text-pink-400">LKR 35,000</div>
+                                        <div className="text-3xl font-bold text-pink-400">LKR 40,000</div>
                                     </div>
                                 </div>
 
@@ -318,7 +318,7 @@ export default function Advertisement() {
                                             <span className="text-lg">🕐</span>
                                         </div>
                                         <h3 className="text-xl font-bold text-indigo-400 font-title mb-2">2 Minute Ad</h3>
-                                        <div className="text-3xl font-bold text-indigo-400">LKR 45,000</div>
+                                        <div className="text-3xl font-bold text-indigo-400">LKR 50,000</div>
                                     </div>
                                 </div>
                             </div>
@@ -348,7 +348,7 @@ export default function Advertisement() {
                                         </div>
                                         <h3 className="text-2xl font-bold text-orange-400 font-title mb-2">Short Films</h3>
                                         <p className="text-gray-300 text-sm mb-4">(3 - 15 Minutes)</p>
-                                        <div className="text-4xl font-bold text-orange-400 mb-2">LKR 75,000</div>
+                                        <div className="text-4xl font-bold text-orange-400 mb-2">LKR 80,000</div>
                                         <p className="text-orange-300 text-sm mb-6 italic">onwards</p>
                                         <p className="text-gray-300 text-sm leading-relaxed">
                                             Professional storytelling, documentaries, full narrative content.
@@ -367,7 +367,7 @@ export default function Advertisement() {
                                         </div>
                                         <h3 className="text-2xl font-bold text-blue-400 font-title mb-2">Music Videos</h3>
                                         <p className="text-gray-300 text-sm mb-4">(3 - 5 Minutes)</p>
-                                        <div className="text-4xl font-bold text-blue-400 mb-2">LKR 60,000</div>
+                                        <div className="text-4xl font-bold text-blue-400 mb-2">LKR 65,000</div>
                                         <p className="text-blue-300 text-sm mb-6 italic">onwards</p>
                                         <p className="text-gray-300 text-sm leading-relaxed">
                                             High-energy visuals, creative direction, choreography, artistic post-production.
