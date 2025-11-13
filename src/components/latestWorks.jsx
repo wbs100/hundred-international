@@ -76,7 +76,7 @@ const LatestWorks = () => {
                                         </p>
                                         <p className="text-sm text-orange-300 mb-1">(15 Lectures 📚)</p>
                                         <div className="text-2xl font-bold text-orange-400 flex items-center justify-center space-x-2">
-                                            <span>Starting at ৳ 6000</span>
+                                            <span>Starting at Rs. 6000</span>
                                             <span className="text-lg">💰🔥</span>
                                         </div>
                                     </div>
