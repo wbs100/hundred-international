@@ -29,7 +29,7 @@ export default function Home() {
                     playsInline
                     className="absolute top-0 left-0 w-full h-full object-cover z-20"
                 >
-                    <source src={ad8} type="video/mp4" />
+                    <source src={video1} type="video/mp4" />
                     {/* Fallback background image if video fails to load */}
                     <div
                         className="absolute top-0 left-0 w-full h-full"
@@ -55,27 +55,6 @@ export default function Home() {
             <Academy />
 
             <CustomHR variant="gradient" />
-
-            <div className="bg-gray-100 h-dvh relative overflow-hidden">
-                <video
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    className="absolute top-0 left-0 w-full h-full object-cover z-20"
-                >
-                    <source src={video1} type="video/mp4" />
-                    {/* Fallback background image if video fails to load */}
-                    <div
-                        className="absolute top-0 left-0 w-full h-full"
-                        style={{
-                            background: 'url("/images/prod-1.png")',
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center'
-                        }}
-                    />
-                </video>
-            </div>
 
             <Testimonials />
 
