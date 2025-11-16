@@ -6,8 +6,11 @@ import Academy from '../components/academy.jsx';
 import Testimonials from '../components/testimonials.jsx';
 import CustomHR from '../components/customHR.jsx';
 
+import OurStrengths from '../components/strengths.jsx';
+import OurConnections from '../components/connections.jsx';
+
 import video1 from '/src/assets/videos/1.mp4';
-import ad8 from '/src/assets/videos/ad/8.mp4';
+//import ad8 from '/src/assets/videos/ad/8.mp4';
 
 export default function Home() {
     return (
@@ -49,10 +52,18 @@ export default function Home() {
             <CustomHR variant="gradient" />
 
             <WebDevelopment />
+            
+            <CustomHR variant="gradient" />
+
+            <OurStrengths />
 
             <CustomHR variant="gradient" />
 
             <Academy />
+            
+            <CustomHR variant="gradient" />
+
+            <OurConnections />
 
             <CustomHR variant="gradient" />
 
