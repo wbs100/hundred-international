@@ -26,231 +26,122 @@ export default function Advertisement() {
                 autoplayDelay={3000}
             />
 
-            {/* Express AI Content Pricing Section (hidden) */}
-            <section className="py-16 bg-black text-white hidden">
+            {/* Advertising Package Descriptions Section */}
+            <section className="py-16 bg-black text-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
                         {/* Section Title */}
                         <div className="text-center mb-12 scroll-animate">
                             <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
-                                Express AI Content Pricing
+                                📈 Advertising Package Descriptions
                             </h2>
                             <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
-                                Streamlined service focused on speed and affordability, using our expert team to guide AI technology
+                                Strategic advertising solutions tailored to your business growth needs
                             </p>
                         </div>
 
-                        {/* Pricing Cards */}
+                        {/* Advertising Packages Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
 
-                            {/* Gold Package */}
-                            <div className="bg-gradient-to-br from-yellow-900/20 to-black/50 rounded-2xl p-8 border border-yellow-500/30 relative overflow-hidden scroll-animate delay-100">
+                            {/* Package 1: The Launchpad */}
+                            <div className="bg-gradient-to-br from-green-900/20 to-black/50 rounded-2xl p-8 border border-green-500/30 relative overflow-hidden scroll-animate delay-100">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                                    <div className="w-full h-full bg-yellow-500 rounded-full blur-3xl"></div>
+                                    <div className="w-full h-full bg-green-500 rounded-full blur-3xl"></div>
                                 </div>
 
                                 <div className="relative z-10 text-center">
                                     {/* Icon and Title */}
                                     <div className="mb-6">
-                                        <div className="w-16 h-16 mx-auto mb-4 bg-yellow-500 rounded-full flex items-center justify-center">
-                                            <span className="text-2xl">🥇</span>
+                                        <div className="w-16 h-16 mx-auto mb-4 bg-green-500 rounded-full flex items-center justify-center">
+                                            <span className="text-2xl">🚀</span>
                                         </div>
-                                        <h3 className="text-2xl font-bold text-yellow-400 font-title">Gold</h3>
-                                    </div>
-
-                                    {/* Duration */}
-                                    <div className="mb-6">
-                                        <p className="text-gray-300 text-sm mb-2">15 - 45 Seconds</p>
-                                        <div className="text-4xl font-bold text-yellow-400 mb-2">LKR 15,000</div>
-                                    </div>
-
-                                    {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
-                                        Fast-Paced Social Media: Quick announcements, product teasers, and attention-grabbing content.
-                                    </p>
-
-                                    {/* Select Button */}
-                                    <button className="w-full bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
-                                        Select Package
-                                    </button>
-                                </div>
-                            </div>
-
-                            {/* Platinum Package */}
-                            <div className="bg-gradient-to-br from-gray-600/20 to-black/50 rounded-2xl p-8 border border-gray-400/30 relative overflow-hidden scroll-animate delay-200">
-
-                                {/* Background Pattern */}
-                                <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                                    <div className="w-full h-full bg-gray-400 rounded-full blur-3xl"></div>
-                                </div>
-
-                                <div className="relative z-10 text-center">
-                                    {/* Icon and Title */}
-                                    <div className="mb-6">
-                                        <div className="w-16 h-16 mx-auto mb-4 bg-gray-400 rounded-full flex items-center justify-center">
-                                            <span className="text-2xl">🥈</span>
-                                        </div>
-                                        <h3 className="text-2xl font-bold text-gray-300 font-title">Platinum</h3>
-                                    </div>
-
-                                    {/* Duration */}
-                                    <div className="mb-6">
-                                        <p className="text-gray-300 text-sm mb-2">45 - 75 Seconds</p>
-                                        <div className="text-4xl font-bold text-gray-300 mb-2">LKR 20,000</div>
-                                    </div>
-
-                                    {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
-                                        Digital Retargeting: Website banners, ad loops, and sustained engagement content.
-                                    </p>
-
-                                    {/* Select Button */}
-                                    <button className="w-full bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
-                                        Select Package
-                                    </button>
-                                </div>
-                            </div>
-
-                            {/* Diamond Package */}
-                            <div className="bg-gradient-to-br from-blue-600/20 to-black/50 rounded-2xl p-8 border border-blue-400/30 relative overflow-hidden scroll-animate delay-300">
-
-                                {/* Background Pattern */}
-                                <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                                    <div className="w-full h-full bg-blue-400 rounded-full blur-3xl"></div>
-                                </div>
-
-                                <div className="relative z-10 text-center">
-                                    {/* Icon and Title */}
-                                    <div className="mb-6">
-                                        <div className="w-16 h-16 mx-auto mb-4 bg-blue-400 rounded-full flex items-center justify-center">
-                                            <span className="text-2xl">💎</span>
-                                        </div>
-                                        <h3 className="text-2xl font-bold text-blue-400 font-title">Diamond</h3>
-                                    </div>
-
-                                    {/* Duration */}
-                                    <div className="mb-6">
-                                        <p className="text-gray-300 text-sm mb-2">90+ Seconds</p>
-                                        <div className="text-4xl font-bold text-blue-400 mb-2">LKR 25,000</div>
-                                    </div>
-
-                                    {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
-                                        Basic Explainers: Longer promotional content, detailed product showcases, and comprehensive messaging.
-                                    </p>
-
-                                    {/* Select Button */}
-                                    <button className="w-full bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
-                                        Select Package
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Premium Production Services Section (hidden) */}
-            <section className="pb-16 bg-black text-white hidden">
-                <div className="container mx-auto px-6">
-                    <div className="max-w-6xl mx-auto">
-
-                        {/* Production Services Cards */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-                            {/* Short Films */}
-                            <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-3xl p-8 border border-orange-500/30 relative overflow-hidden scroll-animate delay-100">
-
-                                {/* Background Pattern */}
-                                <div className="absolute top-0 right-0 w-40 h-40 opacity-10">
-                                    <div className="w-full h-full bg-orange-500 rounded-full blur-3xl"></div>
-                                </div>
-
-                                <div className="relative z-10">
-                                    {/* Icon and Title */}
-                                    <div className="text-center mb-8">
-                                        <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center">
-                                            <span className="text-3xl">🎬</span>
-                                        </div>
-                                        <h3 className="text-3xl font-bold text-orange-400 font-title mb-2">SHORT FILMS</h3>
-                                        <p className="text-gray-300 text-lg">3 - 15 Minutes</p>
+                                        <h3 className="text-2xl font-bold text-green-400 font-title">The Launchpad</h3>
                                     </div>
 
                                     {/* Price */}
-                                    <div className="text-center mb-8">
-                                        <div className="text-5xl font-bold text-orange-400 mb-2">LKR 50,000</div>
-                                        <p className="text-gray-400 italic">Onwards</p>
+                                    <div className="mb-6">
+                                        <div className="text-4xl font-bold text-green-400 mb-2">Rs. 35,000</div>
                                     </div>
-
-                                    {/* Divider */}
-                                    <div className="w-16 h-1 bg-orange-500 mx-auto mb-8"></div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-center leading-relaxed mb-8">
-                                        Professional storytelling with cinematic quality. Perfect for brand stories, documentaries, and narrative content with full production value.
+                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                        Perfect for new brands or small businesses needing to make an immediate impact. This package includes a full strategy session, high-impact creative design, and focused campaign management on one social media platform to kickstart your growth.
                                     </p>
 
-                                    {/* Features */}
-                                    <div className="grid grid-cols-2 gap-3 mb-8">
-                                        <span className="bg-orange-500/20 text-orange-400 px-4 py-2 rounded-full text-sm font-medium text-center">Script Development</span>
-                                        <span className="bg-orange-500/20 text-orange-400 px-4 py-2 rounded-full text-sm font-medium text-center">Professional Crew</span>
-                                        <span className="bg-orange-500/20 text-orange-400 px-4 py-2 rounded-full text-sm font-medium text-center">Location Shooting</span>
-                                        <span className="bg-orange-500/20 text-orange-400 px-4 py-2 rounded-full text-sm font-medium text-center">Post-Production</span>
-                                    </div>
-
-                                    {/* Get Started Button */}
-                                    <button className="w-full bg-orange-500 text-black px-6 py-4 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
-                                        GET STARTED
+                                    {/* Select Button */}
+                                    <button className="w-full bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
+                                        Select Package
                                     </button>
                                 </div>
                             </div>
 
-                            {/* Music Videos */}
-                            <div className="bg-gradient-to-br from-blue-900/20 to-black/50 rounded-3xl p-8 border border-blue-500/30 relative overflow-hidden scroll-animate delay-200">
+                            {/* Package 2: The Accelerator */}
+                            <div className="bg-gradient-to-br from-blue-900/20 to-black/50 rounded-2xl p-8 border border-blue-500/30 relative overflow-hidden scroll-animate delay-200">
 
                                 {/* Background Pattern */}
-                                <div className="absolute top-0 right-0 w-40 h-40 opacity-10">
+                                <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
                                     <div className="w-full h-full bg-blue-500 rounded-full blur-3xl"></div>
                                 </div>
 
-                                <div className="relative z-10">
+                                <div className="relative z-10 text-center">
                                     {/* Icon and Title */}
-                                    <div className="text-center mb-8">
-                                        <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center">
-                                            <span className="text-3xl">🎵</span>
+                                    <div className="mb-6">
+                                        <div className="w-16 h-16 mx-auto mb-4 bg-blue-500 rounded-full flex items-center justify-center">
+                                            <span className="text-2xl">⚡</span>
                                         </div>
-                                        <h3 className="text-3xl font-bold text-blue-400 font-title mb-2">MUSIC VIDEOS</h3>
-                                        <p className="text-gray-300 text-lg">3 - 5 Minutes</p>
+                                        <h3 className="text-2xl font-bold text-blue-400 font-title">The Accelerator</h3>
                                     </div>
 
                                     {/* Price */}
-                                    <div className="text-center mb-8">
-                                        <div className="text-5xl font-bold text-blue-400 mb-2">LKR 60,000</div>
-                                        <p className="text-gray-400 italic">Onwards</p>
+                                    <div className="mb-6">
+                                        <div className="text-4xl font-bold text-blue-400 mb-2">Rs. 50,000</div>
                                     </div>
-
-                                    {/* Divider */}
-                                    <div className="w-16 h-1 bg-blue-500 mx-auto mb-8"></div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-center leading-relaxed mb-8">
-                                        High-energy visual storytelling for artists and brands. Includes choreography planning, creative direction, and artistic post-production.
+                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                        Our most popular choice for businesses ready to scale. We expand your reach with more ad variations, advanced A&B testing to optimize results, and campaign management across two key platforms to maximize your return.
                                     </p>
 
-                                    {/* Features */}
-                                    <div className="grid grid-cols-2 gap-3 mb-8">
-                                        <span className="bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium text-center">Creative Direction</span>
-                                        <span className="bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium text-center">Choreography</span>
-                                        <span className="bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium text-center">Professional Lighting</span>
-                                        <span className="bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium text-center">Color Grading</span>
+                                    {/* Select Button */}
+                                    <button className="w-full bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
+                                        Select Package
+                                    </button>
+                                </div>
+                            </div>
+
+                            {/* Package 3: The Dominator */}
+                            <div className="bg-gradient-to-br from-purple-900/20 to-black/50 rounded-2xl p-8 border border-purple-500/30 relative overflow-hidden scroll-animate delay-300">
+
+                                {/* Background Pattern */}
+                                <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                                    <div className="w-full h-full bg-purple-500 rounded-full blur-3xl"></div>
+                                </div>
+
+                                <div className="relative z-10 text-center">
+                                    {/* Icon and Title */}
+                                    <div className="mb-6">
+                                        <div className="w-16 h-16 mx-auto mb-4 bg-purple-500 rounded-full flex items-center justify-center">
+                                            <span className="text-2xl">👑</span>
+                                        </div>
+                                        <h3 className="text-2xl font-bold text-purple-400 font-title">The Dominator</h3>
                                     </div>
 
-                                    {/* Get Started Button */}
-                                    <button className="w-full bg-orange-500 text-black px-6 py-4 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
-                                        GET STARTED
+                                    {/* Price */}
+                                    <div className="mb-6">
+                                        <div className="text-4xl font-bold text-purple-400 mb-2">Rs. 65,000</div>
+                                    </div>
+
+                                    {/* Description */}
+                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                        The complete, all-in-one solution for market leadership. This package offers a full-scale creative strategy, diverse ad formats (video, image), precision audience targeting, and detailed monthly performance reports with deep analysis.
+                                    </p>
+
+                                    {/* Select Button */}
+                                    <button className="w-full bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
+                                        Select Package
                                     </button>
                                 </div>
                             </div>
@@ -387,6 +278,68 @@ export default function Advertisement() {
                                             <strong className="text-green-400">Note:</strong> The duration and 'onwards' pricing for Short Films and Music Videos reflect the custom effort involved in script development, location scouting, crew, and post-production. We promise, it's worth it.
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <CustomHR variant="gradient" />
+            <CustomHR variant="gradient" />
+
+            {/* Video Production Descriptions Section */}
+            <section className="py-16 bg-black text-white">
+                <div className="container mx-auto px-6">
+                    <div className="max-w-6xl mx-auto">
+
+                        {/* Section Title */}
+                        <div className="text-center mb-12 scroll-animate">
+                            <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
+                                🎬 Video Production Descriptions
+                            </h2>
+                            <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                                Professional video production services for music and film
+                            </p>
+                        </div>
+
+                        {/* Video Production Grid */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+                            {/* Music Videos */}
+                            <div className="bg-gradient-to-br from-orange-900/30 to-black/50 rounded-3xl p-8 border border-orange-500/40 relative overflow-hidden scroll-animate delay-100">
+                                <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                                    <div className="w-full h-full bg-orange-500 rounded-full blur-3xl"></div>
+                                </div>
+                                <div className="relative z-10 text-center">
+                                    <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center">
+                                        <span className="text-2xl">🎵</span>
+                                    </div>
+                                    <h3 className="text-2xl font-bold text-orange-400 font-title mb-4">Music Videos</h3>
+                                    <div className="text-4xl font-bold text-orange-400 mb-2">Rs. 100,000</div>
+                                    <p className="text-orange-300 text-sm mb-6 italic">starting from</p>
+                                    <p className="text-gray-300 text-sm leading-relaxed">
+                                        We transform your music into a stunning visual story. This all-inclusive service covers concept development, high-end on-location shooting, and full post-production, including cinematic editing and color grading to match your sound.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Short Films */}
+                            <div className="bg-gradient-to-br from-blue-900/30 to-black/50 rounded-3xl p-8 border border-blue-500/40 relative overflow-hidden scroll-animate delay-200">
+                                <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                                    <div className="w-full h-full bg-blue-500 rounded-full blur-3xl"></div>
+                                </div>
+                                <div className="relative z-10 text-center">
+                                    <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center">
+                                        <span className="text-2xl">🎬</span>
+                                    </div>
+                                    <h3 className="text-2xl font-bold text-blue-400 font-title mb-2">Short Films</h3>
+                                    <p className="text-gray-300 text-sm mb-4">(over 8 minutes)</p>
+                                    <div className="text-4xl font-bold text-blue-400 mb-2">Rs. 100,000</div>
+                                    <p className="text-blue-300 text-sm mb-6 italic">starting from</p>
+                                    <p className="text-gray-300 text-sm leading-relaxed">
+                                        For filmmakers with a story to tell. We provide a full production crew to bring your script to life, including direction, cinematography, professional sound design, and a final, festival-ready master.
+                                    </p>
                                 </div>
                             </div>
                         </div>
