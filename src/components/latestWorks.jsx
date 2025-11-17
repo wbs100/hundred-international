@@ -24,8 +24,8 @@ const LatestWorks = () => {
                     </p>
                 </div>
 
-                {/* Main Content */}
-                <div className="max-w-6xl mx-auto scroll-animate delay-200">
+                {/* Main Content (hidden) */}
+                <div className="max-w-6xl mx-auto scroll-animate delay-200 hidden">
                     <div className="bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             

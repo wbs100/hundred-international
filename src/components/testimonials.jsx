@@ -1,16 +1,19 @@
+import chamathka from "../assets/images/team/chamathka.jpg";
+import mayura from "../assets/images/team/mayura.png";
+
 const Testimonials = () => {
     const teamMembers = [
         {
             name: "Mayura Athukorala",
             title: "Our CEO",
             quote: "Great people make great companies. Here we are projecting our creativity for all the time.",
-            avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            avatar: mayura
         },
         {
             name: "Chamathka Prasad",
             title: "Our CTO", 
             quote: "Imagination creates reality, but we beautify your reality.",
-            avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            avatar: chamathka
         }
     ];
 
