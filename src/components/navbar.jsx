@@ -183,16 +183,7 @@ const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
                             >
                                 Home
                             </Link>
-                            <Link
-                                href="/services"
-                                className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${currentActiveSection === 'services'
-                                        ? 'bg-orange-500 text-white font-medium transform '
-                                        : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
-                                    }`}
-                                onClick={() => setMenuOpen(false)}
-                            >
-                                Web/App/Software
-                            </Link>
+                            
                             <Link
                                 href="/academy"
                                 className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${currentActiveSection === 'academy'
@@ -212,6 +203,26 @@ const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
                                 onClick={() => setMenuOpen(false)}
                             >
                                 Advertisement
+                            </Link>
+                            <Link
+                                href="/projects"
+                                className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${currentActiveSection === 'projects'
+                                        ? 'bg-orange-500 text-white font-medium transform '
+                                        : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
+                                    }`}
+                                onClick={() => setMenuOpen(false)}
+                            >
+                                Projects
+                            </Link>
+                            <Link
+                                href="/services"
+                                className={`block px-6 py-4 text-lg rounded-lg transition-all duration-300 font-title ${currentActiveSection === 'services'
+                                        ? 'bg-orange-500 text-white font-medium transform '
+                                        : 'text-white hover:bg-orange-500/20 hover:text-orange-400 hover:transform hover:'
+                                    }`}
+                                onClick={() => setMenuOpen(false)}
+                            >
+                                Web/App/Software
                             </Link>
                             <Link
                                 href="/about"
