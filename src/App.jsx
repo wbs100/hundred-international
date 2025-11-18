@@ -13,6 +13,7 @@ import Team from './pages/team.jsx';
 import Contact from './pages/contact.jsx';
 import About from './pages/about.jsx';
 import Advertisement from './pages/advertisement.jsx';
+import Projects from './pages/projects.jsx';
 
 const App = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -58,6 +59,7 @@ const App = () => {
                     <Route path="/team" component={Team} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/advertisement" component={Advertisement} />
+                    <Route path="/projects" component={Projects} />
                 </Switch>
 
             </main>
