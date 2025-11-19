@@ -3,6 +3,12 @@ import hero1 from "../../src/assets/images/webhero1.jpg";
 import hero2 from "../../src/assets/images/webhero2.jpg";
 import hero3 from "../../src/assets/videos/5.mp4";
 import CustomHR from '../components/customHR.jsx';
+
+import thumb1 from "../../src/assets/images/thumbnails/projects/1.jpg";
+import thumb2 from "../../src/assets/images/thumbnails/projects/2.jpg";
+import thumb3 from "../../src/assets/images/thumbnails/projects/3.jpg";
+import thumb4 from "../../src/assets/images/thumbnails/projects/4.jpg";
+
 import { useState } from 'react';
 
 export default function Projects() {
@@ -18,6 +24,7 @@ export default function Projects() {
             type: "video",
             videoId: "1O-Ap5Tsf-F_brq7gsG7FmIUuKmrheJmv",
             description: "A sophisticated brand campaign for Nexus Events showcasing their expertise as Sri Lanka's premier event management company. From intimate gatherings to grand celebrations, this advertisement highlights their commitment to creating unforgettable experiences with meticulous attention to detail and world-class service standards.",
+            thumb: thumb1,
             client: "Nexus Events",
             duration: "2:30",
             tags: ["Event Management", "Premium Branding", "Corporate"]
@@ -29,6 +36,7 @@ export default function Projects() {
             type: "video",
             videoId: "11NeNSssxUVWmvz_rK5oYikAnQAPkw9-g",
             description: "An engaging promotional video for 100 International's comprehensive DaVinci Resolve course. This advertisement demonstrates the power of professional video editing and color grading, showcasing real student transformations and highlighting how our expert-led training program can elevate creative skills to industry standards.",
+            thumb: thumb2,
             client: "100 International",
             duration: "3:45",
             tags: ["Education", "DaVinci Resolve", "Course Promotion"]
@@ -40,6 +48,7 @@ export default function Projects() {
             type: "video",
             videoId: "191X7fN1hQ1ADxWNILMjdq7t_eQJsA9FB",
             description: "A breathtaking tourism advertisement capturing the essence of Sri Lanka's natural beauty and rich cultural heritage. From pristine beaches and ancient temples to lush tea plantations and vibrant wildlife, this cinematic journey invites travelers to experience the pearl of the Indian Ocean and create memories that last a lifetime.",
+            thumb: thumb3,
             client: "Sri Lanka Tourism Board",
             duration: "8:15",
             tags: ["Tourism", "Destination Marketing", "Cultural Heritage"]
@@ -51,6 +60,7 @@ export default function Projects() {
             type: "video",
             videoId: "1W5hhRLnao22SP_ag9IwOEMXPqU2EoKGK",
             description: "An innovative music video production showcasing 100 International's creative prowess in combining AI technology with traditional filmmaking. This dynamic visual narrative demonstrates our ability to blend cutting-edge techniques with artistic vision, featuring synchronized choreography, stunning visual effects, and seamless transitions that elevate the musical experience.",
+            thumb: thumb4,
             client: "100 International",
             duration: "1:45",
             tags: ["Music Video", "AI Technology", "Creative Production"]
@@ -149,14 +159,14 @@ export default function Projects() {
                                         ) : (
                                             <>
                                                 {/* Video Thumbnail */}
-                                                {/* <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-                                                    <div className="text-center">
+                                                <div className="absolute inset-0 bg-gradient-to-br from-red-800 to-gray-900 flex items-center justify-center" style={{backgroundImage: `url(${project.thumb})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                                                    {/* <div className="text-center">
                                                         <div className="w-20 h-20 bg-orange-500/20 rounded-full flex items-center justify-center mb-4 mx-auto">
                                                             <span className="text-3xl">🎬</span>
                                                         </div>
                                                         <p className="text-gray-400 text-sm">Click to play video</p>
-                                                    </div>
-                                                </div> */}
+                                                    </div> */}
+                                                </div>
 
                                                 {/* Play Button Overlay */}
                                                 <div

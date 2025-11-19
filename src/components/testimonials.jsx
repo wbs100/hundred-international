@@ -59,7 +59,7 @@ const Testimonials = () => {
                                 <img 
                                     src={member.avatar}
                                     alt={member.name}
-                                    className="w-20 h-20 rounded-full border-2 border-orange-500/30"
+                                    className="w-20 h-20 rounded object-cover border-2 border-orange-500/30"
                                 />
                             </div>
                             <div className="flex-1">

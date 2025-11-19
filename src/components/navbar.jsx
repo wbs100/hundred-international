@@ -103,7 +103,7 @@ const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
                                     : 'text-white hover:bg-orange-500 hover:bg-opacity-50 hover:text-orange-300'
                                 }`}
                         >
-                            Web/App/Software
+                            Website
                         </Link>
                         <Link
                             href="/about"
@@ -222,7 +222,7 @@ const Navbar = ({ activeSection, menuOpen, setMenuOpen }) => {
                                     }`}
                                 onClick={() => setMenuOpen(false)}
                             >
-                                Web/App/Software
+                                Website
                             </Link>
                             <Link
                                 href="/about"

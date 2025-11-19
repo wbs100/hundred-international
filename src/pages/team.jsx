@@ -28,28 +28,35 @@ const Team = () => {
 
     const executiveTeam = [
         {
-            name: "Mayura Athukorala",
-            title: "Chief Executive Officer (CEO)",
+            name: "Mr Mayura Athukorala",
+            title: "Managing Director / CEO",
             subtitle: "Co-Director Of Content Development",
             description: "Visionary leader driving our mission to create platforms that help businesses flourish globally. Focused on strategic growth and innovation.",
             image: mayura
         },
         {
-            name: "Chamathka Prasad",
-            title: "Chief Technical Officer (CTO)",
+            name: "Mr Chamathka Prasad",
+            title: "Head of Operations",
             subtitle: "",
             description: "Leading technical innovation and development strategies. Expert in cutting-edge technologies and system architecture.",
             image: chamathka
         },
         {
-            name: "Eranda Chamara",
+            name: "Mrs Iruni Kalupahana",
+            title: "Secretary",
+            subtitle: "",
+            description: "",
+            image: "",
+        },
+        {
+            name: "Mr Eranda Chamara",
             title: "Chief Creative Officer (CCO)",
             subtitle: "Co-Director Of Content Development",
             description: "Creative mastermind behind our innovative designs and user experiences. Specializes in brand development and creative strategy.",
             image: eranda
         },
         {
-            name: "Damian Fernando",
+            name: "Mr Damian Fernando",
             title: "Chief Operating Officer (COO)",
             subtitle: "Co-Director Of Content Development",
             description: "Operational excellence leader ensuring smooth business processes and efficient project delivery across all departments.",
