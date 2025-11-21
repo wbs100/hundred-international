@@ -116,7 +116,7 @@ const Team = () => {
                             }}>
                             LEADERSHIP EXCELLENCE
                         </h1>
-                        <p className="text-gray-700 dark:text-gray-200 text-lg md:text-xl max-w-2xl mx-auto font-body">
+                        <p className="text-gray-200 text-lg md:text-xl max-w-2xl mx-auto font-body">
                             Expert professionals driving global innovation and growth
                         </p>
                     </div>
