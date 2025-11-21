@@ -26,7 +26,7 @@ export default function Academy() {
             />
 
             {/* Course Overview Section */}
-            <section className="py-12 bg-black text-white">
+            <section className="py-12 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     {/* Main Course Title */}
                     <div className="text-center mb-16 scroll-animate">
@@ -95,7 +95,7 @@ export default function Academy() {
                         </div>
 
                         {/* The Diploma: AI Master */}
-                        <div className="bg-gradient-to-br from-orange-900/30 to-black/50 rounded-2xl p-8 border border-orange-500/50 relative overflow-hidden scroll-animate delay-300">
+                        <div className="dark:bg-gradient-to-br from-orange-900/30 to-black/50 rounded-2xl p-8 border border-orange-500/50 relative overflow-hidden scroll-animate delay-300">
                             {/* Premium Badge */}
                             <div className="absolute top-4 right-4 bg-orange-500 text-black px-4 py-2 rounded-full text-sm font-bold transform rotate-12">
                                 FLAGSHIP PROGRAM
@@ -130,7 +130,7 @@ export default function Academy() {
             <CustomHR variant="gradient" />
 
             {/* Why Choose Our Academy Section */}
-            <section className="py-12 bg-black text-white">
+            <section className="py-12 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     {/* Section Title */}
                     <div className="text-center mb-16 scroll-animate">
@@ -185,13 +185,13 @@ export default function Academy() {
             <CustomHR variant="gradient" />
 
             {/* Meet Your Lead Instructor Section */}
-            <section className="py-12 bg-black text-white">
+            <section className="py-12 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
                         {/* Section Title */}
                         <div className="text-center mb-12 scroll-animate">
-                            <h3 className="text-3xl md:text-4xl font-bold text-white font-title mb-4">
+                            <h3 className="text-3xl md:text-4xl font-bold dark:text-white font-title mb-4">
                                 Meet Your Lead Instructor 👨‍🏫
                             </h3>
                             <div className="w-24 h-1 bg-orange-500 mx-auto"></div>
@@ -209,7 +209,7 @@ export default function Academy() {
 
                                 {/* Instructor Image */}
                                 <div className="scroll-animate">
-                                    <div className="bg-gradient-to-br from-orange-900/30 to-black/50 rounded-2xl p-4 border border-orange-500/40">
+                                    <div className="dark:bg-gradient-to-br from-orange-900/30 to-black/50 rounded-2xl p-4 border border-orange-500/40">
                                         <div className="w-full aspect-square bg-gray-700 rounded-xl flex items-center justify-center">
                                             <img src={mayura} alt="mayura" className="h-full w-full object-cover rounded-xl" />
                                         </div>
@@ -236,11 +236,11 @@ export default function Academy() {
 
                                     {/* Credentials/Stats */}
                                     <div className="grid grid-cols-2 gap-4 mb-8">
-                                        <div className="text-center p-4 bg-black/30 rounded-lg border border-orange-500/20">
+                                        <div className="text-center p-4 dark:bg-black/30 rounded-lg border border-orange-500/20">
                                             <div className="text-3xl text-orange-400 font-bold">5+</div>
                                             <p className="dark:text-gray-300 text-black text-sm">Years Experience</p>
                                         </div>
-                                        <div className="text-center p-4 bg-black/30 rounded-lg border border-orange-500/20">
+                                        <div className="text-center p-4 dark:bg-black/30 rounded-lg border border-orange-500/20">
                                             <div className="text-3xl text-orange-400 font-bold">500+</div>
                                             <p className="dark:text-gray-300 text-black text-sm">Students Trained</p>
                                         </div>
@@ -261,7 +261,7 @@ export default function Academy() {
             <CustomHR variant="gradient" />
 
             {/* Final Enrollment CTA Section */}
-            <section className="py-16 relative bg-black text-white overflow-hidden">
+            <section className="py-16 relative dark:bg-black dark:text-white overflow-hidden">
 
                 {/* Background Pattern */}
                 <div className="absolute top-0 right-0 w-96 h-96 opacity-20">
@@ -287,7 +287,7 @@ export default function Academy() {
                             {/* Foundation Program */}
                             <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300">
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">Foundation</h3>
-                                <div className="text-2xl font-bold text-white mb-2">Rs. 150,000</div>
+                                <div className="text-2xl font-bold dark:text-white mb-2">Rs. 150,000</div>
                                 <p className="dark:text-gray-300 text-black text-sm mb-4">6 Months • AI Creator</p>
                                 <button className="bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-sm hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 w-full">
                                     ENROLL NOW
@@ -297,7 +297,7 @@ export default function Academy() {
                             {/* Advanced Program */}
                             <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300">
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">Advanced</h3>
-                                <div className="text-2xl font-bold text-white mb-2">Rs. 250,000</div>
+                                <div className="text-2xl font-bold dark:text-white mb-2">Rs. 250,000</div>
                                 <p className="dark:text-gray-300 text-black text-sm mb-4">6 Months • AI Visionary</p>
                                 <button className="bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-sm hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 w-full">
                                     ENROLL NOW
@@ -305,12 +305,12 @@ export default function Academy() {
                             </div>
 
                             {/* Master Diploma */}
-                            <div className="bg-gradient-to-br from-orange-900/30 to-black/50 rounded-2xl p-6 border border-orange-500/50 hover:border-orange-500/70 transition-all duration-300 relative">
+                            <div className="dark:bg-gradient-to-br from-orange-900/30 to-black/50 rounded-2xl p-6 border border-orange-500/50 hover:border-orange-500/70 transition-all duration-300 relative">
                                 <div className="absolute -top-2 -right-2 bg-orange-500 text-black px-3 py-1 rounded-full text-xs font-bold">
                                     FLAGSHIP
                                 </div>
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">Master Diploma</h3>
-                                <div className="text-2xl font-bold text-white mb-2">Rs. 500,000</div>
+                                <div className="text-2xl font-bold dark:text-white mb-2">Rs. 500,000</div>
                                 <p className="dark:text-gray-300 text-black text-sm mb-4">18 Months • AI Master</p>
                                 <button className="bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-sm hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 w-full">
                                     ENROLL NOW
