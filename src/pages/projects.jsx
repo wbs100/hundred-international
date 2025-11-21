@@ -247,15 +247,15 @@ export default function Projects() {
                                 <div className="text-3xl font-bold text-orange-400 mb-2">50+</div>
                                 <p className="dark:text-gray-300 text-black text-sm">Projects Completed</p>
                             </div>
-                            <div className="text-center p-6 bg-gradient-to-br from-blue-900/20 to-black/50 rounded-xl border border-blue-500/30">
+                            <div className="text-center p-6 dark:bg-gradient-to-br from-blue-900/20 to-black/50 rounded-xl border border-blue-500/30">
                                 <div className="text-3xl font-bold text-blue-400 mb-2">25+</div>
                                 <p className="dark:text-gray-300 text-black text-sm">Happy Clients</p>
                             </div>
-                            <div className="text-center p-6 bg-gradient-to-br from-green-900/20 to-black/50 rounded-xl border border-green-500/30">
+                            <div className="text-center p-6 dark:bg-gradient-to-br from-green-900/20 to-black/50 rounded-xl border border-green-500/30">
                                 <div className="text-3xl font-bold text-green-400 mb-2">100%</div>
                                 <p className="dark:text-gray-300 text-black text-sm">Satisfaction Rate</p>
                             </div>
-                            <div className="text-center p-6 bg-gradient-to-br from-purple-900/20 to-black/50 rounded-xl border border-purple-500/30">
+                            <div className="text-center p-6 dark:bg-gradient-to-br from-purple-900/20 to-black/50 rounded-xl border border-purple-500/30">
                                 <div className="text-3xl font-bold text-purple-400 mb-2">24/7</div>
                                 <p className="dark:text-gray-300 text-black text-sm">Support</p>
                             </div>
