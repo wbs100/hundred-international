@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 
-
 import hero1 from '/src/assets/images/webhero1.jpg';
 import hero2 from '/src/assets/images/webhero2.jpg';
 
@@ -52,7 +51,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-black min-h-screen">
+        <div className="bg-white dark:bg-black min-h-screen transition-colors duration-300">
             {/* Hero Banner Section with Slideshow */}
             <section className="relative h-[400px] md:h-[500px] overflow-hidden">
                 {/* Background Images with Slideshow */}
@@ -113,42 +112,42 @@ const Contact = () => {
                     {/* Contact Cards */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
                         {/* Call Us Card */}
-                        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 text-center hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-1">
+                        <div className="bg-gradient-to-br from-slate-200/50 to-slate-300/50 dark:from-slate-800/50 dark:to-slate-900/50 backdrop-blur-sm border border-slate-300/50 dark:border-slate-700/50 rounded-2xl p-8 text-center hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-1">
                             <div className="w-16 h-16 mx-auto mb-5 rounded-full bg-gradient-to-br from-orange-500 to-yellow-500 flex items-center justify-center shadow-lg">
-                                <svg className="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                                 </svg>
                             </div>
                             <h3 className="text-orange-400 font-title text-xl font-bold mb-4">Call Us</h3>
-                            <p className="text-white font-semibold text-lg mb-2">+94 76 368 7242</p>
+                            <p className="text-black dark:text-white font-semibold text-lg mb-2">+94 76 368 7242</p>
                             <p className="text-gray-400 text-sm mb-1">Iruni Kalupahana</p>
                             <p className="text-gray-500 text-xs mb-3">(Director of Internationals)</p>
                             <p className="text-gray-400 text-sm">Mon - Fri: 9:00 AM - 6:00 PM</p>
                         </div>
 
                         {/* Email Us Card */}
-                        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 text-center hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-1">
+                        <div className="bg-gradient-to-br from-slate-200/50 to-slate-300/50 dark:from-slate-800/50 dark:to-slate-900/50 backdrop-blur-sm border border-slate-300/50 dark:border-slate-700/50 rounded-2xl p-8 text-center hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-1">
                             <div className="w-16 h-16 mx-auto mb-5 rounded-full bg-gradient-to-br from-orange-500 to-yellow-500 flex items-center justify-center shadow-lg">
-                                <svg className="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                                 </svg>
                             </div>
                             <h3 className="text-orange-400 font-title text-xl font-bold mb-4">Email Us</h3>
-                            <p className="text-white font-semibold text-base mb-2">info@100-international.com</p>
+                            <p className="text-black dark:text-white font-semibold text-base mb-2">info@100-international.com</p>
                             <p className="text-gray-400 text-sm mb-3">creative@100-international.com</p>
                             <p className="text-gray-400 text-sm">We'll respond within 24 hours</p>
                         </div>
 
                         {/* Visit Us Card */}
-                        <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 text-center hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-1">
+                        <div className="bg-gradient-to-br from-slate-200/50 to-slate-300/50 dark:from-slate-800/50 dark:to-slate-900/50 backdrop-blur-sm border border-slate-300/50 dark:border-slate-700/50 rounded-2xl p-8 text-center hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-1">
                             <div className="w-16 h-16 mx-auto mb-5 rounded-full bg-gradient-to-br from-orange-500 to-yellow-500 flex items-center justify-center shadow-lg">
-                                <svg className="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                                 </svg>
                             </div>
                             <h3 className="text-orange-400 font-title text-xl font-bold mb-4">Visit Us</h3>
-                            <p className="text-white font-semibold text-base mb-2">100 International</p>
+                            <p className="text-black dark:text-white font-semibold text-base mb-2">100 International</p>
                             <p className="text-gray-400 text-sm mb-1">School of Creativity</p>
                             <p className="text-gray-400 text-sm mb-3">Colombo, Sri Lanka</p>
                             <p className="text-gray-400 text-sm">Open for appointments</p>
@@ -158,28 +157,28 @@ const Contact = () => {
                     {/* Contact Form and Location Section - Side by Side */}
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
                         {/* Location Section - Left Side */}
-                        <div className="bg-gradient-to-br from-slate-900/60 to-slate-800/60 backdrop-blur-sm border border-slate-700/50 rounded-3xl p-8 md:p-10 shadow-2xl">
-                            <h2 className="font-title text-3xl md:text-4xl font-bold text-white mb-8">Our Location</h2>
+                        <div className="bg-gradient-to-br from-slate-300/50 to-slate-200/50 dark:from-slate-900/60 dark:to-slate-800/60 backdrop-blur-sm border border-slate-300/50 dark:border-slate-700/50 rounded-3xl p-8 md:p-10 shadow-2xl">
+                            <h2 className="font-title text-3xl md:text-4xl font-bold text-black dark:text-white mb-8">Our Location</h2>
 
-                            <div className="bg-slate-800/50 rounded-2xl p-12 text-center border border-slate-700/30 mb-6">
+                            <div className="bg-slate-200/50 dark:bg-slate-800/50 rounded-2xl p-12 text-center border border-slate-300/30 dark:border-slate-700/30 mb-6">
                                 <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-pink-500 to-red-500 flex items-center justify-center shadow-lg">
                                     <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                                     </svg>
                                 </div>
-                                <p className="dark:text-gray-300 text-black text-lg font-semibold mb-2">Interactive Map</p>
+                                <p className="text-black dark:text-gray-300 text-lg font-semibold mb-2">Interactive Map</p>
                                 <p className="text-gray-500">Coming Soon</p>
                             </div>
 
-                            <p className="text-center text-gray-400">
+                            <p className="text-center text-gray-700 dark:text-gray-400">
                                 Located in the heart of Colombo, we're easily accessible for in-person consultations and meetings.
                             </p>
                         </div>
 
                         {/* Contact Form - Right Side */}
-                        <div className="bg-gradient-to-br from-slate-900/60 to-slate-800/60 backdrop-blur-sm border border-slate-700/50 rounded-3xl p-8 md:p-10 shadow-2xl">
-                            <h2 className="font-title text-3xl md:text-4xl font-bold text-white mb-2">Send Us A Message</h2>
-                            <p className="text-gray-400 mb-6">Have a project in mind? Fill out the form below and we'll get back to you soon.</p>
+                        <div className="bg-gradient-to-br from-slate-300/50 to-slate-200/50 dark:from-slate-900/60 dark:to-slate-800/60 backdrop-blur-sm border border-slate-300/50 dark:border-slate-700/50 rounded-3xl p-8 md:p-10 shadow-2xl">
+                            <h2 className="font-title text-3xl md:text-4xl font-bold text-black dark:text-white mb-2">Send Us A Message</h2>
+                            <p className="text-gray-700 dark:text-gray-400 mb-6">Have a project in mind? Fill out the form below and we'll get back to you soon.</p>
 
                             <form onSubmit={handleSubmit} className="space-y-4">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -189,7 +188,7 @@ const Contact = () => {
                                         placeholder="First Name *"
                                         value={formData.firstName}
                                         onChange={handleChange}
-                                        className="w-full px-4 py-3 bg-slate-800/70 border border-slate-600/50 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
+                                        className="w-full px-4 py-3 bg-slate-200/70 dark:bg-slate-800/70 border border-slate-300/50 dark:border-slate-600/50 rounded-xl text-black dark:text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
                                         required
                                     />
                                     <input
@@ -198,7 +197,7 @@ const Contact = () => {
                                         placeholder="Last Name *"
                                         value={formData.lastName}
                                         onChange={handleChange}
-                                        className="w-full px-4 py-3 bg-slate-800/70 border border-slate-600/50 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
+                                        className="w-full px-4 py-3 bg-slate-200/70 dark:bg-slate-800/70 border border-slate-300/50 dark:border-slate-600/50 rounded-xl text-black dark:text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
                                         required
                                     />
                                 </div>
@@ -210,7 +209,7 @@ const Contact = () => {
                                         placeholder="Email Address *"
                                         value={formData.email}
                                         onChange={handleChange}
-                                        className="w-full px-4 py-3 bg-slate-800/70 border border-slate-600/50 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
+                                        className="w-full px-4 py-3 bg-slate-200/70 dark:bg-slate-800/70 border border-slate-300/50 dark:border-slate-600/50 rounded-xl text-black dark:text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
                                         required
                                     />
                                     <input
@@ -219,7 +218,7 @@ const Contact = () => {
                                         placeholder="Phone Number"
                                         value={formData.phone}
                                         onChange={handleChange}
-                                        className="w-full px-4 py-3 bg-slate-800/70 border border-slate-600/50 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
+                                        className="w-full px-4 py-3 bg-slate-200/70 dark:bg-slate-800/70 border border-slate-300/50 dark:border-slate-600/50 rounded-xl text-black dark:text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
                                     />
                                 </div>
 
@@ -229,7 +228,7 @@ const Contact = () => {
                                     placeholder="Subject *"
                                     value={formData.subject}
                                     onChange={handleChange}
-                                    className="w-full px-4 py-3 bg-slate-800/70 border border-slate-600/50 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
+                                    className="w-full px-4 py-3 bg-slate-200/70 dark:bg-slate-800/70 border border-slate-300/50 dark:border-slate-600/50 rounded-xl text-black dark:text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
                                     required
                                 />
 
@@ -237,7 +236,7 @@ const Contact = () => {
                                     id="service"
                                     value={formData.service}
                                     onChange={handleChange}
-                                    className="w-full px-4 py-3 bg-slate-800/70 border border-slate-600/50 rounded-xl text-gray-400 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
+                                    className="w-full px-4 py-3 bg-slate-200/70 dark:bg-slate-800/70 border border-slate-300/50 dark:border-slate-600/50 rounded-xl text-gray-700 dark:text-gray-400 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300"
                                     required
                                 >
                                     <option value="">Select Service of Interest</option>
@@ -256,7 +255,7 @@ const Contact = () => {
                                     placeholder="Tell us about your project or inquiry..."
                                     value={formData.message}
                                     onChange={handleChange}
-                                    className="w-full px-4 py-3 bg-slate-800/70 border border-slate-600/50 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300 resize-none"
+                                    className="w-full px-4 py-3 bg-slate-200/70 dark:bg-slate-800/70 border border-slate-300/50 dark:border-slate-600/50 rounded-xl text-black dark:text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/30 transition-all duration-300 resize-none"
                                     required
                                 ></textarea>
 
@@ -272,7 +271,7 @@ const Contact = () => {
 
                     {/* Social Media Section */}
                     <div className="text-center">
-                        <h2 className="font-title text-3xl md:text-4xl font-bold text-white mb-8">Connect With Us</h2>
+                        <h2 className="font-title text-3xl md:text-4xl font-bold text-black dark:text-white mb-8">Connect With Us</h2>
                         <div className="flex justify-center items-center gap-4 flex-wrap">
                             {[
                                 { icon: "M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" },
@@ -287,7 +286,7 @@ const Contact = () => {
                                     href="#"
                                     className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-yellow-500 flex items-center justify-center text-black hover:scale-110 hover:rotate-6 transition-all duration-300 shadow-lg"
                                 >
-                                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
                                         <path d={social.icon} />
                                     </svg>
                                 </a>
