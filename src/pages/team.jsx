@@ -82,7 +82,7 @@ const Team = () => {
     ];
 
     return (
-        <div className="bg-black min-h-screen">
+        <div className="bg-white dark:bg-black min-h-screen transition-colors duration-300">
             {/* Hero Banner Section with Slideshow */}
             <section className="relative h-[400px] md:h-[500px] overflow-hidden">
                 {/* Background Images with Slideshow */}
@@ -116,7 +116,7 @@ const Team = () => {
                             }}>
                             LEADERSHIP EXCELLENCE
                         </h1>
-                        <p className="text-gray-200 text-lg md:text-xl max-w-2xl mx-auto font-body">
+                        <p className="text-gray-700 dark:text-gray-200 text-lg md:text-xl max-w-2xl mx-auto font-body">
                             Expert professionals driving global innovation and growth
                         </p>
                     </div>
@@ -143,7 +143,7 @@ const Team = () => {
             <div className="container mx-auto px-6">
                 {/* Executive Directors Section */}
                 <div className="mb-20">
-                    <h2 className="font-title text-3xl md:text-4xl font-bold text-white text-center mb-12">
+                    <h2 className="font-title text-3xl md:text-4xl font-bold text-black dark:text-white text-center mb-12">
                         Executive Directors
                     </h2>
                     <div className="max-w-7xl mx-auto">
@@ -178,9 +178,9 @@ const Team = () => {
                         >
                             {executiveTeam.map((member, index) => (
                                 <SwiperSlide key={index} className="h-auto">
-                                    <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-2 flex flex-col h-full">
+                                    <div className="bg-gradient-to-br from-slate-200/50 to-slate-300/50 dark:from-slate-800/50 dark:to-slate-900/50 backdrop-blur-sm border border-slate-300/50 dark:border-slate-700/50 rounded-2xl p-6 hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-2 flex flex-col h-full">
                                         <div className="flex justify-center mb-6">
-                                            <div className="w-40 h-40 rounded-full overflow-hidden bg-slate-700 border-4 border-orange-500/30 shadow-lg shadow-orange-500/20">
+                                            <div className="w-40 h-40 rounded-full overflow-hidden bg-slate-300 dark:bg-slate-700 border-4 border-orange-500/30 shadow-lg shadow-orange-500/20">
                                                 <img 
                                                     src={member.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&size=200&background=f97316&color=fff&bold=true`}
                                                     alt={member.name}
@@ -193,11 +193,11 @@ const Team = () => {
                                                 style={{ color: '#f97316' }}>
                                                 {member.name}
                                             </h3>
-                                            <p className="dark:text-gray-300 text-black text-sm font-semibold mb-1">{member.title}</p>
+                                            <p className="text-gray-700 dark:text-gray-300 text-sm font-semibold mb-1">{member.title}</p>
                                             {member.subtitle && (
-                                                <p className="text-gray-400 text-xs mb-3">{member.subtitle}</p>
+                                                <p className="text-gray-500 dark:text-gray-400 text-xs mb-3">{member.subtitle}</p>
                                             )}
-                                            <p className="text-gray-400 text-sm leading-relaxed flex-grow">{member.description}</p>
+                                            <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed flex-grow">{member.description}</p>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -208,7 +208,7 @@ const Team = () => {
 
                 {/* Non-Executive Contributors Section (hidden) */}
                 <div className="mb-20 hidden">
-                    <h2 className="font-title text-3xl md:text-4xl font-bold text-white text-center mb-12">
+                    <h2 className="font-title text-3xl md:text-4xl font-bold text-black dark:text-white text-center mb-12">
                         Non-Executive Contributors
                     </h2>
                     <div className="max-w-4xl mx-auto">
@@ -235,9 +235,9 @@ const Team = () => {
                         >
                             {contributors.map((member, index) => (
                                 <SwiperSlide key={index} className="h-auto">
-                                    <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-2 flex flex-col h-full">
+                                    <div className="bg-gradient-to-br from-slate-200/50 to-slate-300/50 dark:from-slate-800/50 dark:to-slate-900/50 backdrop-blur-sm border border-slate-300/50 dark:border-slate-700/50 rounded-2xl p-6 hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-2 flex flex-col h-full">
                                         <div className="flex justify-center mb-6">
-                                            <div className="w-40 h-40 rounded-full overflow-hidden bg-slate-700 border-4 border-orange-500/30 shadow-lg shadow-orange-500/20">
+                                            <div className="w-40 h-40 rounded-full overflow-hidden bg-slate-300 dark:bg-slate-700 border-4 border-orange-500/30 shadow-lg shadow-orange-500/20">
                                                 <img 
                                                     src={`https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&size=200&background=f97316&color=fff&bold=true`}
                                                     alt={member.name}
@@ -250,8 +250,8 @@ const Team = () => {
                                                 style={{ color: '#f97316' }}>
                                                 {member.name}
                                             </h3>
-                                            <p className="dark:text-gray-300 text-black text-sm font-semibold mb-3">{member.title}</p>
-                                            <p className="text-gray-400 text-sm leading-relaxed flex-grow">{member.description}</p>
+                                            <p className="text-gray-700 dark:text-gray-300 text-sm font-semibold mb-3">{member.title}</p>
+                                            <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed flex-grow">{member.description}</p>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -263,7 +263,7 @@ const Team = () => {
                 {/* Mission Statement Section */}
                 <div className="max-w-6xl mx-auto mb-20 px-4">
                     <div className="text-center space-y-8">
-                        <p className="dark:text-gray-300 text-black text-base md:text-lg leading-relaxed max-w-5xl mx-auto">
+                        <p className="text-gray-700 dark:text-gray-300 text-base md:text-lg leading-relaxed max-w-5xl mx-auto">
                             100 International is a pioneering remote-based company with a mission to empower individuals and businesses to 
                             thrive in the global marketplace. Our core goal is to create platforms that help platforms flourish, offering robust 
                             support to new and existing ventures. We aim to inspire entrepreneurial growth by teaching individuals everything 
@@ -282,8 +282,6 @@ const Team = () => {
                         </p>
                     </div>
                 </div>
-
-
             </div>
             </div>
 
