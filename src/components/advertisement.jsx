@@ -70,7 +70,7 @@ const Advertisement = () => {
     };
 
     return (
-        <section ref={sectionRef} className="py-20 bg-black text-white">
+        <section ref={sectionRef} className="py-20 bg-white dark:bg-black text-black dark:text-white">
             <div className="container mx-auto px-6">
                 {/* Header */}
                 <div className="text-center mb-16 scroll-animate">
@@ -80,7 +80,7 @@ const Advertisement = () => {
                     <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-4">
                         Discover Our Latest Innovations
                     </h2>
-                    <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+                    <p className="dark:text-gray-300 text-black text-lg max-w-2xl mx-auto">
                         Experience the Future of creative solutions
                     </p>
                 </div>
@@ -92,7 +92,7 @@ const Advertisement = () => {
                         {videos.map((video) => (
                             <div
                                 key={video.id}
-                                className={`bg-gradient-to-br from-orange-900/20 to-black/50 p-6 rounded-2xl border border-orange-500/30 transition-all duration-300 ${playingVideo === video.id ? 'ring-2 ring-orange-500 scale-105' : 'hover:scale-105'
+                                className={`dark:bg-gradient-to-br from-orange-900/20 to-black/50 p-6 rounded-2xl border border-orange-500/30 transition-all duration-300 ${playingVideo === video.id ? 'ring-2 ring-orange-500 scale-105' : 'hover:scale-105'
                                     }`}
                             >
                                 <VideoPlayer
@@ -108,7 +108,7 @@ const Advertisement = () => {
                                     <h3 className="text-xl font-bold text-orange-400 mb-2">
                                         {video.title}
                                     </h3>
-                                    <p className="text-gray-300 text-sm mb-4">
+                                    <p className="dark:text-gray-300 text-black text-sm mb-4">
                                         {video.description}
                                     </p>
                                     <button className="bg-transparent border-2 border-orange-500 text-orange-400 px-6 py-2 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-all duration-300 uppercase tracking-wide text-sm">
@@ -134,7 +134,7 @@ const Advertisement = () => {
                         >
                             {videos.map((video) => (
                                 <SwiperSlide key={video.id}>
-                                    <div className={`bg-gradient-to-br from-orange-900/20 to-black/50 p-6 rounded-2xl border border-orange-500/30 transition-all duration-300 ${playingVideo === video.id ? 'ring-2 ring-orange-500' : ''
+                                    <div className={`dark:bg-gradient-to-br from-orange-900/20 to-black/50 p-6 rounded-2xl border border-orange-500/30 transition-all duration-300 ${playingVideo === video.id ? 'ring-2 ring-orange-500' : ''
                                         }`}>
                                         <VideoPlayer
                                             video={video}
@@ -149,7 +149,7 @@ const Advertisement = () => {
                                             <h3 className="text-xl font-bold text-orange-400 mb-2">
                                                 {video.title}
                                             </h3>
-                                            <p className="text-gray-300 text-sm mb-4">
+                                            <p className="dark:text-gray-300 text-black text-sm mb-4">
                                                 {video.description}
                                             </p>
                                             <button className="bg-transparent border-2 border-orange-500 text-orange-400 px-6 py-2 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-all duration-300 uppercase tracking-wide text-sm">

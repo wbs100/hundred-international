@@ -86,7 +86,7 @@ const OurConnections = () => {
     };
 
     return (
-        <section className="py-16 bg-black text-white relative overflow-hidden">
+        <section className="py-16 dark:bg-black dark:text-white relative overflow-hidden">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-5">
                 <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>
@@ -101,7 +101,7 @@ const OurConnections = () => {
                         <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                             🔗 Our Connections
                         </h2>
-                        <p className="text-gray-300 text-lg max-w-4xl mx-auto leading-relaxed">
+                        <p className="dark:text-gray-300 text-black text-lg max-w-4xl mx-auto leading-relaxed">
                             We believe in the power of connections. Our extensive network spans across industries, 
                             continents, and creative disciplines to bring you the best collaborative opportunities.
                         </p>
@@ -133,7 +133,7 @@ const OurConnections = () => {
                                 const colors = getColorClasses(connection.color);
                                 return (
                                     <SwiperSlide key={connection.id} className="max-w-sm">
-                                        <div className={`bg-gradient-to-br ${colors.bg} rounded-3xl p-8 ${colors.border} border transition-all duration-300 h-80 flex flex-col justify-center`}>
+                                        <div className={`dark:bg-gradient-to-br ${colors.bg} rounded-3xl p-8 ${colors.border} border transition-all duration-300 h-80 flex flex-col justify-center`}>
                                             
                                             {/* Icon */}
                                             <div className="text-6xl mb-6 text-center">
@@ -146,7 +146,7 @@ const OurConnections = () => {
                                             </h3>
                                             
                                             {/* Description */}
-                                            <p className="text-gray-300 text-sm leading-relaxed text-center">
+                                            <p className="dark:text-gray-300 text-black text-sm leading-relaxed text-center">
                                                 {connection.description}
                                             </p>
                                         </div>
@@ -158,7 +158,7 @@ const OurConnections = () => {
 
                     {/* Call to Action */}
                     <div className="text-center mt-12 scroll-animate delay-200">
-                        <p className="text-gray-300 text-lg mb-6">
+                        <p className="dark:text-gray-300 text-black text-lg mb-6">
                             Want to become part of our network?
                         </p>
                         <button className="bg-orange-500 text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">

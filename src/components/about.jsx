@@ -166,7 +166,7 @@ const About = () => {
                                 className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6 text-center hover:border-orange-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/10 transform hover:-translate-y-1"
                             >
                                 <h3 className="text-yellow-400 text-3xl md:text-4xl font-bold mb-2">{stat.number}</h3>
-                                <p className="text-gray-300 text-sm md:text-base">{stat.label}</p>
+                                <p className="dark:text-gray-300 text-black text-sm md:text-base">{stat.label}</p>
                             </div>
                         ))}
                     </div>
@@ -192,7 +192,7 @@ const About = () => {
                                 </svg>
                             </div>
                             <h3 className="text-yellow-400 font-title text-2xl font-bold mb-4">Our Beginning</h3>
-                            <p className="text-gray-300 mb-4">
+                            <p className="dark:text-gray-300 text-black mb-4">
                                 100 International started as a passion project to help businesses and individuals bring their creative visions to life. We began with video editing services and quickly expanded to web development and educational courses.
                             </p>
                             <p className="text-gray-400">
@@ -207,7 +207,7 @@ const About = () => {
                                 </svg>
                             </div>
                             <h3 className="text-yellow-400 font-title text-2xl font-bold mb-4">Growing Forward</h3>
-                            <p className="text-gray-300 mb-4">
+                            <p className="dark:text-gray-300 text-black mb-4">
                                 Today, we're expanding our reach by offering comprehensive digital solutions and academy programs. Our goal is to empower others with the skills and creativity needed in the digital age.
                             </p>
                             <p className="text-gray-400">
@@ -252,7 +252,7 @@ const About = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border-l-4 border-yellow-400 rounded-2xl p-8">
                             <h3 className="text-yellow-400 font-title text-2xl font-bold mb-4">Our Mission</h3>
-                            <p className="text-gray-300 mb-4">
+                            <p className="dark:text-gray-300 text-black mb-4">
                                 To provide creative and innovative digital solutions that help our clients achieve their goals while fostering a community of learners and creators.
                             </p>
                             <p className="text-gray-400">
@@ -262,7 +262,7 @@ const About = () => {
 
                         <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm border-l-4 border-yellow-400 rounded-2xl p-8">
                             <h3 className="text-yellow-400 font-title text-2xl font-bold mb-4">Our Vision</h3>
-                            <p className="text-gray-300 mb-4">
+                            <p className="dark:text-gray-300 text-black mb-4">
                                 To become a recognized name in the creative digital space, known for quality work, innovative solutions, and empowering others through education.
                             </p>
                             <p className="text-gray-400">

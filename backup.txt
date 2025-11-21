@@ -10,7 +10,7 @@
                             <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                                 Express AI Content Pricing
                             </h2>
-                            <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg max-w-3xl mx-auto leading-relaxed">
                                 Streamlined service focused on speed and affordability, using our expert team to guide AI technology
                             </p>
                         </div>
@@ -37,12 +37,12 @@
 
                                     {/* Duration */}
                                     <div className="mb-6">
-                                        <p className="text-gray-300 text-sm mb-2">15 - 45 Seconds</p>
+                                        <p className="dark:text-gray-300 text-black text-sm mb-2">15 - 45 Seconds</p>
                                         <div className="text-4xl font-bold text-yellow-400 mb-2">LKR 15,000</div>
                                     </div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed mb-8">
                                         Fast-Paced Social Media: Quick announcements, product teasers, and attention-grabbing content.
                                     </p>
 
@@ -67,17 +67,17 @@
                                         <div className="w-16 h-16 mx-auto mb-4 bg-gray-400 rounded-full flex items-center justify-center">
                                             <span className="text-2xl">🥈</span>
                                         </div>
-                                        <h3 className="text-2xl font-bold text-gray-300 font-title">Platinum</h3>
+                                        <h3 className="text-2xl font-bold dark:text-gray-300 text-black font-title">Platinum</h3>
                                     </div>
 
                                     {/* Duration */}
                                     <div className="mb-6">
-                                        <p className="text-gray-300 text-sm mb-2">45 - 75 Seconds</p>
-                                        <div className="text-4xl font-bold text-gray-300 mb-2">LKR 20,000</div>
+                                        <p className="dark:text-gray-300 text-black text-sm mb-2">45 - 75 Seconds</p>
+                                        <div className="text-4xl font-bold dark:text-gray-300 text-black mb-2">LKR 20,000</div>
                                     </div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed mb-8">
                                         Digital Retargeting: Website banners, ad loops, and sustained engagement content.
                                     </p>
 
@@ -107,12 +107,12 @@
 
                                     {/* Duration */}
                                     <div className="mb-6">
-                                        <p className="text-gray-300 text-sm mb-2">90+ Seconds</p>
+                                        <p className="dark:text-gray-300 text-black text-sm mb-2">90+ Seconds</p>
                                         <div className="text-4xl font-bold text-blue-400 mb-2">LKR 25,000</div>
                                     </div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed mb-8">
                                         Basic Explainers: Longer promotional content, detailed product showcases, and comprehensive messaging.
                                     </p>
 
@@ -137,7 +137,7 @@
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
                             {/* Short Films */}
-                            <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-3xl p-8 border border-orange-500/30 relative overflow-hidden scroll-animate delay-100">
+                            <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-3xl p-8 border border-orange-500/30 relative overflow-hidden scroll-animate delay-100">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-40 h-40 opacity-10">
@@ -151,7 +151,7 @@
                                             <span className="text-3xl">🎬</span>
                                         </div>
                                         <h3 className="text-3xl font-bold text-orange-400 font-title mb-2">SHORT FILMS</h3>
-                                        <p className="text-gray-300 text-lg">3 - 15 Minutes</p>
+                                        <p className="dark:text-gray-300 text-black text-lg">3 - 15 Minutes</p>
                                     </div>
 
                                     {/* Price */}
@@ -164,7 +164,7 @@
                                     <div className="w-16 h-1 bg-orange-500 mx-auto mb-8"></div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-center leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-center leading-relaxed mb-8">
                                         Professional storytelling with cinematic quality. Perfect for brand stories, documentaries, and narrative content with full production value.
                                     </p>
 
@@ -198,7 +198,7 @@
                                             <span className="text-3xl">🎵</span>
                                         </div>
                                         <h3 className="text-3xl font-bold text-blue-400 font-title mb-2">MUSIC VIDEOS</h3>
-                                        <p className="text-gray-300 text-lg">3 - 5 Minutes</p>
+                                        <p className="dark:text-gray-300 text-black text-lg">3 - 5 Minutes</p>
                                     </div>
 
                                     {/* Price */}
@@ -211,7 +211,7 @@
                                     <div className="w-16 h-1 bg-blue-500 mx-auto mb-8"></div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-center leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-center leading-relaxed mb-8">
                                         High-energy visual storytelling for artists and brands. Includes choreography planning, creative direction, and artistic post-production.
                                     </p>
 

@@ -15,42 +15,47 @@ import About from './pages/about.jsx';
 import Advertisement from './pages/advertisement.jsx';
 import Projects from './pages/projects.jsx';
 
+// Theme Toggle Button Component
+function ThemeToggle({ theme, setTheme }) {
+    return (
+        <button
+            className="fixed bottom-[120px] right-6 z-50 bg-orange-500 text-black px-4 py-2 rounded-full font-bold shadow-lg hover:bg-orange-400 transition-all duration-300"
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            aria-label="Toggle theme"
+        >
+            {theme === 'dark' ? '🌞 Light Mode' : '🌙 Dark Mode'}
+        </button>
+    );
+}
+
 const App = () => {
     const [activeSection, setActiveSection] = useState('home');
     const [menuOpen, setMenuOpen] = useState(false);
 
+    // Theme state
+    const [theme, setTheme] = useState(() => {
+        // Try to use system preference or fallback to dark
+        if (typeof window !== "undefined") {
+            return localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        }
+        return 'dark';
+    });
+
+    // Apply theme to <html> element
+    useEffect(() => {
+        document.documentElement.classList.remove('dark', 'light');
+        document.documentElement.classList.add(theme);
+        localStorage.setItem('theme', theme);
+    }, [theme]);
+
     // Initialize scroll animation
     useScrollAnimation();
 
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         const sections = ['home', 'services', 'about', 'contact'];
-    //         const scrollPosition = window.scrollY + 100;
-
-    //         for (const section of sections) {
-    //             const element = document.getElementById(section);
-    //             if (element) {
-    //                 const offsetTop = element.offsetTop;
-    //                 const offsetHeight = element.offsetHeight;
-
-    //                 if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-    //                     setActiveSection(section);
-    //                     break;
-    //                 }
-    //             }
-    //         }
-    //     };
-
-    //     window.addEventListener('scroll', handleScroll);
-    //     return () => window.removeEventListener('scroll', handleScroll);
-    // }, []);
-
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen flex flex-col bg-white dark:bg-black transition-colors duration-300">
             <Navbar activeSection={activeSection} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
             <main>
-
                 <Switch>
                     <Route path="/" component={Home} />
                     <Route path="/about" component={About} />
@@ -61,7 +66,6 @@ const App = () => {
                     <Route path="/advertisement" component={Advertisement} />
                     <Route path="/projects" component={Projects} />
                 </Switch>
-
             </main>
 
             <Footer />
@@ -77,6 +81,8 @@ const App = () => {
                 notification={true}
                 notificationDelay={60}
             />
+
+            <ThemeToggle theme={theme} setTheme={setTheme} />
         </div>
     );
 };

@@ -41,7 +41,7 @@ const Testimonials = () => {
     ];
 
     return (
-        <section id="about" className="py-20 bg-black text-white">
+        <section id="about" className="py-20 bg-white dark:bg-black text-black dark:text-white">
             <div className="container mx-auto px-6">
                 {/* Header */}
                 <div className="text-center mb-16 scroll-animate">
@@ -63,7 +63,7 @@ const Testimonials = () => {
                                 />
                             </div>
                             <div className="flex-1">
-                                <p className="text-gray-300 mb-4 font-paragraph leading-relaxed">
+                                <p className="dark:text-gray-300 text-black mb-4 font-paragraph leading-relaxed">
                                     {member.quote}
                                 </p>
                                 <h3 className="text-orange-400 font-bold text-lg font-title">{member.name}</h3>
@@ -75,23 +75,23 @@ const Testimonials = () => {
 
                 {/* Our Focus Section */}
                 <div className="text-center mb-16 scroll-animate delay-200">
-                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 font-title">
+                    <h3 className="text-2xl md:text-3xl font-bold dark:text-white mb-6 font-title">
                         OUR FOCUS
                     </h3>
                     <div className="max-w-3xl mx-auto space-y-4">
-                        <p className="text-gray-300 font-paragraph">
+                        <p className="dark:text-gray-300 text-black font-paragraph">
                             AT THE CORE,
                         </p>
                         <p className="text-orange-400 text-xl font-bold font-title">
                             WE MAKE COMPANIES FOR YOUR INNOVATIVE IDEAS.
                         </p>
-                        <p className="text-gray-300 font-paragraph">
+                        <p className="dark:text-gray-300 text-black font-paragraph">
                             BUT THE POINT IS
                         </p>
                         <p className="text-orange-400 text-xl font-bold font-title">
                             WE SELL HERE OUR CREATIVITY
                         </p>
-                        <p className="text-gray-300 font-paragraph">
+                        <p className="dark:text-gray-300 text-black font-paragraph">
                             TO ENTER THE BUSINESS WORLD.
                         </p>
                     </div>
@@ -102,13 +102,13 @@ const Testimonials = () => {
                     {stats.map((stat, index) => (
                         <div 
                             key={index} 
-                            className="bg-gradient-to-br from-orange-900/20 to-black/50 p-6 rounded-2xl border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 text-center"
+                            className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 p-6 rounded-2xl border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 text-center"
                         >
                             <div className="text-3xl mb-3">{stat.icon}</div>
                             <div className="text-2xl md:text-3xl font-bold text-orange-400 mb-2 font-title">
                                 {stat.number}
                             </div>
-                            <div className="text-gray-300 text-sm font-paragraph">
+                            <div className="dark:text-gray-300 text-black text-sm font-paragraph">
                                 {stat.label}
                             </div>
                         </div>

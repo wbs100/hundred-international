@@ -46,7 +46,7 @@ const OurStrengths = () => {
     ];
 
     return (
-        <section className="py-16 bg-black text-white">
+        <section className="py-16 dark:bg-black dark:text-white">
             <div className="container mx-auto px-6">
                 <div className="max-w-6xl mx-auto">
                     
@@ -55,7 +55,7 @@ const OurStrengths = () => {
                         <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                             💪 Our Strengths
                         </h2>
-                        <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                        <p className="dark:text-gray-300 text-black text-lg max-w-3xl mx-auto leading-relaxed">
                             Trusted by leading brands and innovative companies worldwide
                         </p>
                     </div>
@@ -87,10 +87,10 @@ const OurStrengths = () => {
                         >
                             {clients.map((client) => (
                                 <SwiperSlide key={client.id}>
-                                    <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300 text-center h-full">
+                                    <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300 text-center h-full">
                                         
                                         {/* Client Logo */}
-                                        <div className="w-24 h-24 mx-auto mb-4 bg-white rounded-xl flex items-center justify-center p-4">
+                                        <div className="w-24 h-24 mx-auto mb-4 bg-orange-500 dark:bg-white rounded-xl flex items-center justify-center p-4">
                                             <img 
                                                 src={client.logo} 
                                                 alt={client.name}
@@ -98,7 +98,7 @@ const OurStrengths = () => {
                                                 onError={(e) => {
                                                     // Fallback if image doesn't exist
                                                     e.target.style.display = 'none';
-                                                    e.target.parentNode.innerHTML = `<div class="text-2xl text-gray-500">${client.name.charAt(0)}</div>`;
+                                                    e.target.parentNode.innerHTML = `<div class="text-2xl text-white dark:text-black">${client.name.charAt(0)}</div>`;
                                                 }}
                                             />
                                         </div>
@@ -107,7 +107,7 @@ const OurStrengths = () => {
                                         <h3 className="text-lg font-bold text-orange-400 mb-2 font-title">
                                             {client.name}
                                         </h3>
-                                        <p className="text-gray-300 text-sm leading-relaxed">
+                                        <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                             {client.description}
                                         </p>
                                     </div>
@@ -118,21 +118,21 @@ const OurStrengths = () => {
 
                     {/* Stats Section */}
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 scroll-animate delay-200">
-                        <div className="text-center p-6 bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
+                        <div className="text-center p-6 dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
                             <div className="text-3xl font-bold text-orange-400 mb-2">100+</div>
-                            <p className="text-gray-300 text-sm">Happy Clients</p>
+                            <p className="dark:text-gray-300 text-black text-sm">Happy Clients</p>
                         </div>
-                        <div className="text-center p-6 bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
+                        <div className="text-center p-6 dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
                             <div className="text-3xl font-bold text-orange-400 mb-2">500+</div>
-                            <p className="text-gray-300 text-sm">Projects Completed</p>
+                            <p className="dark:text-gray-300 text-black text-sm">Projects Completed</p>
                         </div>
-                        <div className="text-center p-6 bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
+                        <div className="text-center p-6 dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
                             <div className="text-3xl font-bold text-orange-400 mb-2">5+</div>
-                            <p className="text-gray-300 text-sm">Years Experience</p>
+                            <p className="dark:text-gray-300 text-black text-sm">Years Experience</p>
                         </div>
-                        <div className="text-center p-6 bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
+                        <div className="text-center p-6 dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
                             <div className="text-3xl font-bold text-orange-400 mb-2">24/7</div>
-                            <p className="text-gray-300 text-sm">Support</p>
+                            <p className="dark:text-gray-300 text-black text-sm">Support</p>
                         </div>
                     </div>
                 </div>

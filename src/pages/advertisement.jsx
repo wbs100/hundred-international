@@ -36,7 +36,7 @@ export default function Advertisement() {
                             <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                                 📈 Advertising Package Descriptions
                             </h2>
-                            <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg max-w-3xl mx-auto leading-relaxed">
                                 Strategic advertising solutions tailored to your business growth needs
                             </p>
                         </div>
@@ -67,7 +67,7 @@ export default function Advertisement() {
                                     </div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed mb-8">
                                         Perfect for new brands or small businesses needing to make an immediate impact. This package includes a full strategy session, high-impact creative design, and focused campaign management on one social media platform to kickstart your growth.
                                     </p>
 
@@ -101,7 +101,7 @@ export default function Advertisement() {
                                     </div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed mb-8">
                                         Our most popular choice for businesses ready to scale. We expand your reach with more ad variations, advanced A&B testing to optimize results, and campaign management across two key platforms to maximize your return.
                                     </p>
 
@@ -135,7 +135,7 @@ export default function Advertisement() {
                                     </div>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed mb-8">
                                         The complete, all-in-one solution for market leadership. This package offers a full-scale creative strategy, diverse ad formats (video, image), precision audience targeting, and detailed monthly performance reports with deep analysis.
                                     </p>
 
@@ -164,7 +164,7 @@ export default function Advertisement() {
                                 <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                                     📈 Extended & Custom Ad Rates
                                 </h2>
-                                <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                                <p className="dark:text-gray-300 text-black text-lg max-w-3xl mx-auto leading-relaxed">
                                     For advertisements requiring more runtime, our pricing scales clearly:
                                 </p>
                             </div>
@@ -221,7 +221,7 @@ export default function Advertisement() {
                                 <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                                     🎬 Premium Cinematic Projects
                                 </h2>
-                                <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                                <p className="dark:text-gray-300 text-black text-lg max-w-3xl mx-auto leading-relaxed">
                                     Ready for a full-scale production? We bring cinematic quality to your biggest ideas.
                                 </p>
                             </div>
@@ -238,10 +238,10 @@ export default function Advertisement() {
                                             <span className="text-2xl">🎬</span>
                                         </div>
                                         <h3 className="text-2xl font-bold text-orange-400 font-title mb-2">Short Films</h3>
-                                        <p className="text-gray-300 text-sm mb-4">(3 - 15 Minutes)</p>
+                                        <p className="dark:text-gray-300 text-black text-sm mb-4">(3 - 15 Minutes)</p>
                                         <div className="text-4xl font-bold text-orange-400 mb-2">LKR 80,000</div>
                                         <p className="text-orange-300 text-sm mb-6 italic">onwards</p>
-                                        <p className="text-gray-300 text-sm leading-relaxed">
+                                        <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                             Professional storytelling, documentaries, full narrative content.
                                         </p>
                                     </div>
@@ -257,10 +257,10 @@ export default function Advertisement() {
                                             <span className="text-2xl">🎵</span>
                                         </div>
                                         <h3 className="text-2xl font-bold text-blue-400 font-title mb-2">Music Videos</h3>
-                                        <p className="text-gray-300 text-sm mb-4">(3 - 5 Minutes)</p>
+                                        <p className="dark:text-gray-300 text-black text-sm mb-4">(3 - 5 Minutes)</p>
                                         <div className="text-4xl font-bold text-blue-400 mb-2">LKR 65,000</div>
                                         <p className="text-blue-300 text-sm mb-6 italic">onwards</p>
-                                        <p className="text-gray-300 text-sm leading-relaxed">
+                                        <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                             High-energy visuals, creative direction, choreography, artistic post-production.
                                         </p>
                                     </div>
@@ -274,7 +274,7 @@ export default function Advertisement() {
                                         <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                             <span className="text-black text-lg">💡</span>
                                         </div>
-                                        <div className="text-sm text-gray-300 leading-relaxed">
+                                        <div className="text-sm dark:text-gray-300 text-black leading-relaxed">
                                             <strong className="text-green-400">Note:</strong> The duration and 'onwards' pricing for Short Films and Music Videos reflect the custom effort involved in script development, location scouting, crew, and post-production. We promise, it's worth it.
                                         </div>
                                     </div>
@@ -298,7 +298,7 @@ export default function Advertisement() {
                             <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                                 🎬 Video Production Descriptions
                             </h2>
-                            <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg max-w-3xl mx-auto leading-relaxed">
                                 Professional video production services for music and film
                             </p>
                         </div>
@@ -318,7 +318,7 @@ export default function Advertisement() {
                                     <h3 className="text-2xl font-bold text-orange-400 font-title mb-4">Music Videos</h3>
                                     <div className="text-4xl font-bold text-orange-400 mb-2">Rs. 100,000</div>
                                     <p className="text-orange-300 text-sm mb-6 italic">starting from</p>
-                                    <p className="text-gray-300 text-sm leading-relaxed">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                         We transform your music into a stunning visual story. This all-inclusive service covers concept development, high-end on-location shooting, and full post-production, including cinematic editing and color grading to match your sound.
                                     </p>
                                 </div>
@@ -334,10 +334,10 @@ export default function Advertisement() {
                                         <span className="text-2xl">🎬</span>
                                     </div>
                                     <h3 className="text-2xl font-bold text-blue-400 font-title mb-2">Short Films</h3>
-                                    <p className="text-gray-300 text-sm mb-4">(over 8 minutes)</p>
+                                    <p className="dark:text-gray-300 text-black text-sm mb-4">(over 8 minutes)</p>
                                     <div className="text-4xl font-bold text-blue-400 mb-2">Rs. 100,000</div>
                                     <p className="text-blue-300 text-sm mb-6 italic">starting from</p>
-                                    <p className="text-gray-300 text-sm leading-relaxed">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                         For filmmakers with a story to tell. We provide a full production crew to bring your script to life, including direction, cinematography, professional sound design, and a final, festival-ready master.
                                     </p>
                                 </div>
@@ -360,7 +360,7 @@ export default function Advertisement() {
                             <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                                 The Power of Our Team + AI
                             </h2>
-                            <p className="text-gray-300 text-lg max-w-4xl mx-auto leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg max-w-4xl mx-auto leading-relaxed">
                                 While this service is automated for low cost, your content is overseen by the industry's strongest AI production team
                             </p>
                         </div>
@@ -386,7 +386,7 @@ export default function Advertisement() {
                                     <h3 className="text-2xl font-bold text-red-400 font-title mb-6">Expert AI Curation</h3>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                         Our team ensures the AI output is creatively compelling and strategically sound.
                                     </p>
                                 </div>
@@ -410,14 +410,14 @@ export default function Advertisement() {
                                     <h3 className="text-2xl font-bold text-yellow-400 font-title mb-6">Rapid Generation</h3>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                         Content created instantly using cutting-edge text-to-video synthesis.
                                     </p>
                                 </div>
                             </div>
 
                             {/* Simple Revisions */}
-                            <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-8 border border-orange-500/30 relative overflow-hidden scroll-animate delay-300">
+                            <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-8 border border-orange-500/30 relative overflow-hidden scroll-animate delay-300">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
@@ -434,7 +434,7 @@ export default function Advertisement() {
                                     <h3 className="text-2xl font-bold text-orange-400 font-title mb-6">Simple Revisions</h3>
 
                                     {/* Description */}
-                                    <p className="text-gray-300 text-sm leading-relaxed">
+                                    <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                         One round of minor text or color correction adjustments is included.
                                     </p>
                                 </div>
@@ -451,7 +451,7 @@ export default function Advertisement() {
                                         <span className="text-black text-lg">⚠️</span>
                                     </div>
 
-                                    <div className="text-sm text-gray-300 leading-relaxed">
+                                    <div className="text-sm dark:text-gray-300 text-black leading-relaxed">
                                         <strong className="text-yellow-400">Note:</strong> To maintain affordable pricing for AI Express packages, this service is automated and does not include traditional production elements. Premium packages (Short Films & Music Videos) include full production teams.
                                     </div>
                                 </div>
@@ -460,7 +460,7 @@ export default function Advertisement() {
 
                         {/* Bottom CTA */}
                         <div className="text-center mt-12 scroll-animate delay-500">
-                            <p className="text-gray-300 text-lg mb-6">
+                            <p className="dark:text-gray-300 text-black text-lg mb-6">
                                 Ready to experience AI-powered content creation with expert oversight?
                             </p>
                             <button className="bg-orange-500 text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-orange-500/25">
@@ -484,7 +484,7 @@ export default function Advertisement() {
                             <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                                 Sample Advertisement Videos
                             </h2>
-                            <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg max-w-3xl mx-auto leading-relaxed">
                                 See the quality and creativity of our AI Express productions
                             </p>
                         </div>
@@ -592,7 +592,7 @@ export default function Advertisement() {
 
                                 {/* Video Info */}
                                 <div className="p-6">
-                                    <h3 className="text-xl font-bold text-gray-300 font-title">
+                                    <h3 className="text-xl font-bold dark:text-gray-300 text-black font-title">
                                         AI Express Sample - Brand Awareness
                                     </h3>
                                 </div>
@@ -605,7 +605,7 @@ export default function Advertisement() {
             <CustomHR variant="gradient" />
 
             {/* Start Your Campaign Now! Section */}
-            <section className="py-20 bg-black text-white relative overflow-hidden">
+            <section className="py-20 bg-white dark:bg-black text-black dark:text-white relative overflow-hidden">
                 {/* Rotating Background Element */}
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                     <div className="w-96 h-96 bg-gradient-to-br from-orange-500/20 to-orange-900/10 rounded-3xl animate-spin-slow transform rotate-45"></div>
@@ -616,7 +616,7 @@ export default function Advertisement() {
                         <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                             Start Your Campaign Now!
                         </h2>
-                        <p className="text-gray-300 text-lg mb-8 font-paragraph">
+                        <p className="dark:text-gray-300 text-black text-lg mb-8 font-paragraph">
                             Ready to access world-class creativity instantly?
                         </p>
 

@@ -3,14 +3,14 @@ import { useState } from 'react';
 
 const WebDevelopment = () => {
     return (
-        <section className="py-20 bg-black text-white">
+        <section className="py-20 bg-white dark:bg-black text-black dark:text-white">
             <div className="container mx-auto px-6">
                 {/* Header */}
                 <div className="text-center mb-16 scroll-animate">
                     <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-4 font-title">
                         Web Development & Software Solutions
                     </h2>
-                    <p className="text-gray-300 text-lg max-w-2xl mx-auto font-paragraph">
+                    <p className="dark:text-gray-300 text-black text-lg max-w-2xl mx-auto font-paragraph">
                         Transform your innovative ideas into powerful digital solutions
                     </p>
                 </div>
@@ -19,7 +19,7 @@ const WebDevelopment = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
                     
                     {/* Professional Development Services Card */}
-                    <div className="bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 scroll-animate delay-100">
+                    <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 scroll-animate delay-100">
                         {/* Icon */}
                         <div className="flex justify-center mb-6">
                             <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center">
@@ -35,7 +35,7 @@ const WebDevelopment = () => {
                         </h3>
 
                         {/* Description */}
-                        <p className="text-gray-300 text-center mb-8 font-paragraph">
+                        <p className="dark:text-gray-300 text-black text-center mb-8 font-paragraph">
                             We specialize in creating cutting-edge web applications, mobile apps, and custom software solutions.
                         </p>
 
@@ -43,7 +43,7 @@ const WebDevelopment = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                             <div>
                                 <h4 className="text-orange-400 font-semibold mb-3 font-title">OUR EXPERTISE:</h4>
-                                <ul className="space-y-2 text-sm text-gray-300 font-paragraph">
+                                <ul className="space-y-2 text-sm dark:text-gray-300 text-black font-paragraph">
                                     <li className="flex items-center">
                                         <span className="text-orange-400 mr-2">✓</span>
                                         Web Applications
@@ -65,7 +65,7 @@ const WebDevelopment = () => {
                             
                             <div>
                                 <h4 className="text-orange-400 font-semibold mb-3 font-title">TECHNOLOGIES:</h4>
-                                <ul className="space-y-2 text-sm text-gray-300 font-paragraph">
+                                <ul className="space-y-2 text-sm dark:text-gray-300 text-black font-paragraph">
                                     <li className="flex items-center">
                                         <span className="text-orange-400 mr-2">✓</span>
                                         Modern Frameworks
@@ -95,7 +95,7 @@ const WebDevelopment = () => {
                     </div>
 
                     {/* Ready to Build Card */}
-                    <div className="bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 scroll-animate delay-200">
+                    <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 scroll-animate delay-200">
                         
                         {/* Title */}
                         <h3 className="text-2xl font-bold text-orange-400 mb-6 font-title">
@@ -103,7 +103,7 @@ const WebDevelopment = () => {
                         </h3>
 
                         {/* Description */}
-                        <p className="text-gray-300 mb-8 font-paragraph">
+                        <p className="dark:text-gray-300 text-black mb-8 font-paragraph">
                             Explore our comprehensive development services and discover how we can help turn your ideas into reality.
                         </p>
 
@@ -118,15 +118,15 @@ const WebDevelopment = () => {
                         <div className="grid grid-cols-3 gap-4 mb-6">
                             <div className="text-center p-4 bg-black/30 rounded-lg border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300">
                                 <div className="text-orange-400 text-2xl mb-2">📱</div>
-                                <span className="text-xs text-gray-300 font-paragraph">Portfolio</span>
+                                <span className="text-xs dark:text-gray-300 text-black font-paragraph">Portfolio</span>
                             </div>
                             <div className="text-center p-4 bg-black/30 rounded-lg border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300">
                                 <div className="text-orange-400 text-2xl mb-2">💬</div>
-                                <span className="text-xs text-gray-300 font-paragraph">Get Quote</span>
+                                <span className="text-xs dark:text-gray-300 text-black font-paragraph">Get Quote</span>
                             </div>
                             <div className="text-center p-4 bg-black/30 rounded-lg border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300">
                                 <div className="text-orange-400 text-2xl mb-2">📞</div>
-                                <span className="text-xs text-gray-300 font-paragraph">Contact</span>
+                                <span className="text-xs dark:text-gray-300 text-black font-paragraph">Contact</span>
                             </div>
                         </div>
 

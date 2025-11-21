@@ -11,7 +11,7 @@ const LatestWorks = () => {
     };
 
     return (
-        <section className="py-20 bg-black text-white">
+        <section className="py-20 bg-white dark:bg-black text-black dark:text-white">
             <div className="container mx-auto px-6">
                 {/* Header */}
                 <div className="text-center mb-16 scroll-animate">
@@ -19,14 +19,14 @@ const LatestWorks = () => {
                         Our Latest Works
                     </h2>
                     <div className="w-20 h-1 bg-orange-500 mx-auto mb-6"></div>
-                    <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+                    <p className="dark:text-gray-300 text-black text-lg max-w-2xl mx-auto">
                         Discover our most recent projects and creative achievements
                     </p>
                 </div>
 
                 {/* Main Content (hidden) */}
                 <div className="max-w-6xl mx-auto scroll-animate delay-200 hidden">
-                    <div className="bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30">
+                    <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 p-8 rounded-2xl border border-orange-500/30">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                             
                             {/* Left Side - Content */}
@@ -45,14 +45,14 @@ const LatestWorks = () => {
                                 </h3>
 
                                 {/* Description */}
-                                <p className="text-gray-300 text-sm leading-relaxed">
+                                <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                     Master advanced Content Creation with DaVinci Resolve 2024's latest AI Prompt Engineering and DaVinci Resolve Film Making techniques.
                                 </p>
 
                                 {/* Features */}
                                 <div className="space-y-3">
                                     <h4 className="text-orange-400 font-semibold">What you'll learn:</h4>
-                                    <ul className="space-y-2 text-sm text-gray-300">
+                                    <ul className="space-y-2 text-sm dark:text-gray-300 text-black">
                                         <li className="flex items-center space-x-3">
                                             <div className="w-2 h-2 bg-orange-500 rounded-full flex-shrink-0"></div>
                                             <span>AI Prompt Engineering with ChatGPT for content creation</span>
@@ -71,7 +71,7 @@ const LatestWorks = () => {
                                 {/* Course Details Box */}
                                 <div className="bg-orange-900/30 border border-orange-500/50 rounded-lg p-4">
                                     <div className="text-center">
-                                        <p className="text-sm text-gray-300 mb-2">
+                                        <p className="text-sm dark:text-gray-300 text-black mb-2">
                                             Complete course with 15+ hours of content
                                         </p>
                                         <p className="text-sm text-orange-300 mb-1">(15 Lectures 📚)</p>
@@ -155,7 +155,7 @@ const LatestWorks = () => {
                         <div className="inline-block bg-orange-500 text-black px-4 py-2 rounded-full text-sm font-medium mb-4 uppercase tracking-wide">
                             📊 Latest Website Products
                         </div>
-                        <p className="text-gray-300 text-lg">
+                        <p className="dark:text-gray-300 text-black text-lg">
                             Check out our most recent website developments and digital solutions
                         </p>
                     </div>
@@ -164,7 +164,7 @@ const LatestWorks = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                         
                         {/* Project 1 - KW Industries */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-100">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-100">
                             <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                                 <img 
                                     src={prod1} 
@@ -175,12 +175,12 @@ const LatestWorks = () => {
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">KW INDUSTRIES</h3>
-                                <p className="text-gray-300 text-sm mb-4 leading-relaxed">
+                                <p className="dark:text-gray-300 text-black text-sm mb-4 leading-relaxed">
                                     Sri Lankan Free cinnamon (Ceylon cinnamon) export business website with e-commerce integration and international shipping.
                                 </p>
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    <span className="bg-orange-500/20 text-orange-300 px-2 py-1 rounded text-xs">WordPress</span>
-                                    <span className="bg-orange-500/20 text-orange-300 px-2 py-1 rounded text-xs">WooCommerce</span>
+                                    <span className="bg-orange-500/20 text-orange-600 dark:text-orange-300 px-2 py-1 rounded text-xs">WordPress</span>
+                                    <span className="bg-orange-500/20 text-orange-600 dark:text-orange-300 px-2 py-1 rounded text-xs">WooCommerce</span>
                                 </div>
                                 <button className="w-full bg-transparent border border-orange-500/50 text-orange-400 py-2 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-all duration-300">
                                     View Project
@@ -189,7 +189,7 @@ const LatestWorks = () => {
                         </div>
 
                         {/* Project 2 - Hela Weda Gedara */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-200">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-200">
                             <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                                 <img 
                                     src={prod2} 
@@ -200,12 +200,12 @@ const LatestWorks = () => {
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">HELA WEDA GEDARA</h3>
-                                <p className="text-gray-300 text-sm mb-4 leading-relaxed">
+                                <p className="dark:text-gray-300 text-black text-sm mb-4 leading-relaxed">
                                     Indigenous Sri Lankan medicine and Ayurveda healthcare services platform combining traditional and modern treatments.
                                 </p>
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    <span className="bg-orange-500/20 text-orange-300 px-2 py-1 rounded text-xs">WordPress</span>
-                                    <span className="bg-orange-500/20 text-orange-300 px-2 py-1 rounded text-xs">Custom CMS</span>
+                                    <span className="bg-orange-500/20 text-orange-600 dark:text-orange-300 px-2 py-1 rounded text-xs">WordPress</span>
+                                    <span className="bg-orange-500/20 text-orange-600 dark:text-orange-300 px-2 py-1 rounded text-xs">Custom CMS</span>
                                 </div>
                                 <button className="w-full bg-transparent border border-orange-500/50 text-orange-400 py-2 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-all duration-300">
                                     View Project
@@ -214,19 +214,19 @@ const LatestWorks = () => {
                         </div>
 
                         {/* Project 3 - Smart POS System */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-300">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl overflow-hidden border border-orange-500/30 hover:border-orange-500/60 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-300">
                             <div className="aspect-[4/3] bg-gradient-to-br from-orange-900 to-orange-700 relative overflow-hidden flex items-center justify-center">
                                 <div className="text-6xl text-orange-300">📱</div>
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">SMART POS SYSTEM</h3>
-                                <p className="text-gray-300 text-sm mb-4 leading-relaxed">
+                                <p className="dark:text-gray-300 text-black text-sm mb-4 leading-relaxed">
                                     Mobile application for billing and inventory management with real-time tracking and sales analytics.
                                 </p>
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    <span className="bg-orange-500/20 text-orange-300 px-2 py-1 rounded text-xs">React Native</span>
-                                    <span className="bg-orange-500/20 text-orange-300 px-2 py-1 rounded text-xs">Node.js</span>
+                                    <span className="bg-orange-500/20 text-orange-600 dark:text-orange-300 px-2 py-1 rounded text-xs">React Native</span>
+                                    <span className="bg-orange-500/20 text-orange-600 dark:text-orange-300 px-2 py-1 rounded text-xs">Node.js</span>
                                 </div>
                                 <button className="w-full bg-transparent border border-orange-500/50 text-orange-400 py-2 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-all duration-300">
                                     View Project

@@ -5,6 +5,27 @@
     <link rel="icon" type="image/svg+xml" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              orange: {
+                400: '#fb923c',
+                500: '#f97316',
+              },
+              black: '#000',
+              white: '#fff',
+            },
+            fontFamily: {
+              title: ['Montserrat', 'sans-serif'],
+              paragraph: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
     <title>100 International</title>
   </head>
   <body>

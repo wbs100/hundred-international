@@ -36,7 +36,7 @@ export default function Academy() {
                         <h4 className="text-2xl md:text-4xl font-bold text-orange-400 mb-8 font-title">
                             Our World-Class Promise
                         </h4>
-                        <p className="text-gray-300 text-lg leading-relaxed max-w-4xl mx-auto font-paragraph">
+                        <p className="dark:text-gray-300 text-black text-lg leading-relaxed max-w-4xl mx-auto font-paragraph">
                             We provide training at the highest global standard. Our mission is to transform you into
                             a top-tier expert by teaching you the world's most advanced, AI-driven creative techniques.
                             This is where you master the future of media.
@@ -47,7 +47,7 @@ export default function Academy() {
                     <div className="space-y-8 max-w-6xl mx-auto">
 
                         {/* The Foundation: AI Creator */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-8 border border-orange-500/30 scroll-animate delay-100">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-8 border border-orange-500/30 scroll-animate delay-100">
                             <div className="flex items-center gap-4 mb-6">
                                 <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-2xl">
                                     🎯
@@ -56,13 +56,13 @@ export default function Academy() {
                                     <h3 className="text-3xl font-bold text-orange-400 font-title">The Foundation: AI Creator</h3>
                                     <div className="flex items-center gap-4 mt-2">
                                         <span className="text-orange-300 text-xl font-bold">Rs. 150,000</span>
-                                        <span className="text-gray-300">•</span>
-                                        <span className="text-gray-300">6 Months Duration</span>
+                                        <span className="dark:text-gray-300 text-black">•</span>
+                                        <span className="dark:text-gray-300 text-black">6 Months Duration</span>
                                     </div>
                                 </div>
                             </div>
                             
-                            <p className="text-gray-300 text-lg leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg leading-relaxed">
                                 This is your gateway into the world's most advanced creative field. This 6-month program is an intense boot camp 
                                 focused on building an elite foundation. You will master the core of AI Prompt Engineering, learning to communicate 
                                 with, command, and control AI models to generate exceptional creative assets. We then teach you to professionally 
@@ -71,7 +71,7 @@ export default function Academy() {
                         </div>
 
                         {/* The Advanced: AI Visionary */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-8 border border-orange-500/30 scroll-animate delay-200">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-8 border border-orange-500/30 scroll-animate delay-200">
                             <div className="flex items-center gap-4 mb-6">
                                 <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-2xl">
                                     🚀
@@ -80,13 +80,13 @@ export default function Academy() {
                                     <h3 className="text-3xl font-bold text-orange-400 font-title">The Advanced: AI Visionary</h3>
                                     <div className="flex items-center gap-4 mt-2">
                                         <span className="text-orange-300 text-xl font-bold">Rs. 250,000</span>
-                                        <span className="text-gray-300">•</span>
-                                        <span className="text-gray-300">6 Months Duration</span>
+                                        <span className="dark:text-gray-300 text-black">•</span>
+                                        <span className="dark:text-gray-300 text-black">6 Months Duration</span>
                                     </div>
                                 </div>
                             </div>
                             
-                            <p className="text-gray-300 text-lg leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg leading-relaxed">
                                 This program is where you achieve true mastery. We move beyond simple commands into the complex architecture 
                                 of advanced AI prompting. You will learn to architect sophisticated, multi-layered prompts, chain AI models, 
                                 and pioneer new creative techniques. Your DaVinci Resolve skills will be elevated to a world-class professional 
@@ -109,13 +109,13 @@ export default function Academy() {
                                     <h3 className="text-3xl font-bold text-orange-400 font-title">The Diploma: AI Master</h3>
                                     <div className="flex items-center gap-4 mt-2">
                                         <span className="text-orange-300 text-2xl font-bold">Rs. 500,000</span>
-                                        <span className="text-gray-300">•</span>
-                                        <span className="text-gray-300">18 Months Duration</span>
+                                        <span className="dark:text-gray-300 text-black">•</span>
+                                        <span className="dark:text-gray-300 text-black">18 Months Duration</span>
                                     </div>
                                 </div>
                             </div>
                             
-                            <p className="text-gray-300 text-lg leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg leading-relaxed">
                                 This 18-month program is our flagship, designed to forge world-leading experts. It combines the entire Foundation 
                                 and Advanced AI curriculum, then expands it with elite, strategic modules. You will learn industry secrets, 
                                 master complex AI-driven project workflows from concept to delivery, and build an industry-defining portfolio. 
@@ -143,37 +143,37 @@ export default function Academy() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 scroll-animate delay-100">
 
                         {/* Expert Guidance */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 text-center">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 text-center">
                             <div className="text-5xl mb-4">🧑‍🏫</div>
                             <h4 className="text-orange-400 font-bold text-lg mb-3 font-title">Expert Guidance</h4>
-                            <p className="text-gray-300 text-sm leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                 Learn from industry professionals with real-world experience in AI-powered creative production.
                             </p>
                         </div>
 
                         {/* Advanced Knowledge */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 text-center">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 text-center">
                             <div className="text-5xl mb-4">💡</div>
                             <h4 className="text-orange-400 font-bold text-lg mb-3 font-title">Cutting-Edge Curriculum</h4>
-                            <p className="text-gray-300 text-sm leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                 Master the latest AI models and techniques used by top professionals in the creative industry.
                             </p>
                         </div>
 
                         {/* Practical Training */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 text-center">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 text-center">
                             <div className="text-5xl mb-4">🌍</div>
                             <h4 className="text-orange-400 font-bold text-lg mb-3 font-title">Hands-On Projects</h4>
-                            <p className="text-gray-300 text-sm leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                 Apply your skills to real-world projects and build a professional portfolio that stands out.
                             </p>
                         </div>
 
                         {/* Complete Package */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 text-center">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 text-center">
                             <div className="text-5xl mb-4">💯</div>
                             <h4 className="text-orange-400 font-bold text-lg mb-3 font-title">Complete Solution</h4>
-                            <p className="text-gray-300 text-sm leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-sm leading-relaxed">
                                 From AI prompt engineering to professional video editing - everything you need in one place.
                             </p>
                         </div>
@@ -198,7 +198,7 @@ export default function Academy() {
                         </div>
 
                         {/* Instructor Profile */}
-                        <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-3xl p-8 border border-orange-500/30 relative overflow-hidden">
+                        <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-3xl p-8 border border-orange-500/30 relative overflow-hidden">
 
                             {/* Background Pattern */}
                             <div className="absolute top-0 right-0 w-64 h-64 opacity-5">
@@ -228,7 +228,7 @@ export default function Academy() {
                                         Mayura Athukorala
                                     </h4>
 
-                                    <p className="text-gray-300 text-lg leading-relaxed mb-8">
+                                    <p className="dark:text-gray-300 text-black text-lg leading-relaxed mb-8">
                                         CEO and Professional Level Mentor at 100 International with deep expertise in AI-powered creative production, 
                                         film making, and content creation. With years of industry experience, Mayura brings real-world knowledge and 
                                         cutting-edge techniques to help you master the latest tools and workflows in AI-driven creative fields.
@@ -238,11 +238,11 @@ export default function Academy() {
                                     <div className="grid grid-cols-2 gap-4 mb-8">
                                         <div className="text-center p-4 bg-black/30 rounded-lg border border-orange-500/20">
                                             <div className="text-3xl text-orange-400 font-bold">5+</div>
-                                            <p className="text-gray-300 text-sm">Years Experience</p>
+                                            <p className="dark:text-gray-300 text-black text-sm">Years Experience</p>
                                         </div>
                                         <div className="text-center p-4 bg-black/30 rounded-lg border border-orange-500/20">
                                             <div className="text-3xl text-orange-400 font-bold">500+</div>
-                                            <p className="text-gray-300 text-sm">Students Trained</p>
+                                            <p className="dark:text-gray-300 text-black text-sm">Students Trained</p>
                                         </div>
                                     </div>
 
@@ -276,7 +276,7 @@ export default function Academy() {
                             <h2 className="text-4xl md:text-6xl font-bold text-orange-400 mb-6 font-title">
                                 Transform Your Future with AI
                             </h2>
-                            <p className="text-xl md:text-2xl text-gray-300 mb-12 font-paragraph">
+                            <p className="text-xl md:text-2xl dark:text-gray-300 text-black mb-12 font-paragraph">
                                 Choose Your Path to AI Mastery
                             </p>
                         </div>
@@ -285,20 +285,20 @@ export default function Academy() {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 scroll-animate delay-100">
 
                             {/* Foundation Program */}
-                            <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300">
+                            <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300">
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">Foundation</h3>
                                 <div className="text-2xl font-bold text-white mb-2">Rs. 150,000</div>
-                                <p className="text-gray-300 text-sm mb-4">6 Months • AI Creator</p>
+                                <p className="dark:text-gray-300 text-black text-sm mb-4">6 Months • AI Creator</p>
                                 <button className="bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-sm hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 w-full">
                                     ENROLL NOW
                                 </button>
                             </div>
 
                             {/* Advanced Program */}
-                            <div className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300">
+                            <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-6 border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300">
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">Advanced</h3>
                                 <div className="text-2xl font-bold text-white mb-2">Rs. 250,000</div>
-                                <p className="text-gray-300 text-sm mb-4">6 Months • AI Visionary</p>
+                                <p className="dark:text-gray-300 text-black text-sm mb-4">6 Months • AI Visionary</p>
                                 <button className="bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-sm hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 w-full">
                                     ENROLL NOW
                                 </button>
@@ -311,7 +311,7 @@ export default function Academy() {
                                 </div>
                                 <h3 className="text-xl font-bold text-orange-400 mb-2">Master Diploma</h3>
                                 <div className="text-2xl font-bold text-white mb-2">Rs. 500,000</div>
-                                <p className="text-gray-300 text-sm mb-4">18 Months • AI Master</p>
+                                <p className="dark:text-gray-300 text-black text-sm mb-4">18 Months • AI Master</p>
                                 <button className="bg-orange-500 text-black px-6 py-3 rounded-full font-bold text-sm hover:bg-orange-400 transition-all duration-300 transform hover:scale-105 w-full">
                                     ENROLL NOW
                                 </button>
@@ -320,12 +320,12 @@ export default function Academy() {
 
                         {/* Bottom Text */}
                         <div className="scroll-animate delay-200">
-                            <p className="text-lg text-gray-300 mb-8">
+                            <p className="text-lg dark:text-gray-300 text-black mb-8">
                                 Ready to master the future of creative production? Choose your program and start your journey today.
                             </p>
 
                             {/* Contact Info */}
-                            <p className="text-lg text-gray-300">
+                            <p className="text-lg dark:text-gray-300 text-black">
                                 Questions? Contact us for more details about enrollment and course access.
                             </p>
                         </div>

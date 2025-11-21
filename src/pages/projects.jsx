@@ -112,7 +112,7 @@ export default function Projects() {
                             <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                                 🎬 Featured Projects
                             </h2>
-                            <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
+                            <p className="dark:text-gray-300 text-black text-lg max-w-3xl mx-auto leading-relaxed">
                                 Explore our diverse portfolio of creative projects, from AI-powered advertisements 
                                 to cinematic productions that showcase our expertise and innovation.
                             </p>
@@ -127,7 +127,7 @@ export default function Projects() {
                                     className={`px-6 py-3 rounded-full font-bold text-sm transition-all duration-300 transform hover:scale-105 flex items-center gap-2 ${
                                         selectedCategory === category.key
                                             ? 'bg-orange-500 text-black shadow-lg shadow-orange-500/25'
-                                            : 'bg-gradient-to-br from-orange-900/20 to-black/50 border border-orange-500/30 text-orange-400 hover:border-orange-500/50'
+                                            : 'dark:bg-gradient-to-br from-orange-900/20 to-black/50 border border-orange-500/30 text-orange-400 hover:border-orange-500/50'
                                     }`}
                                 >
                                     <span>{category.icon}</span>
@@ -141,7 +141,7 @@ export default function Projects() {
                             {filteredProjects.map((project) => (
                                 <div 
                                     key={project.id}
-                                    className="bg-gradient-to-br from-orange-900/20 to-black/50 rounded-3xl overflow-hidden border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300 group"
+                                    className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-3xl overflow-hidden border border-orange-500/30 hover:border-orange-500/50 transition-all duration-300 group"
                                 >
                                     {/* Video Container */}
                                     <div className="relative aspect-video bg-gray-900 overflow-hidden">
@@ -208,7 +208,7 @@ export default function Projects() {
                                             </div>
                                         </div>
                                         
-                                        <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                                        <p className="dark:text-gray-300 text-black text-sm leading-relaxed mb-4">
                                             {project.description}
                                         </p>
 
@@ -217,7 +217,7 @@ export default function Projects() {
                                             {project.tags.map((tag, index) => (
                                                 <span 
                                                     key={index}
-                                                    className="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-xs font-medium"
+                                                    className="bg-orange-500/20 text-orange-600 dark:text-orange-300 px-3 py-1 rounded-full text-xs font-medium"
                                                 >
                                                     {tag}
                                                 </span>
@@ -243,21 +243,21 @@ export default function Projects() {
 
                         {/* Stats Section */}
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 scroll-animate delay-300">
-                            <div className="text-center p-6 bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
+                            <div className="text-center p-6 dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-xl border border-orange-500/30">
                                 <div className="text-3xl font-bold text-orange-400 mb-2">50+</div>
-                                <p className="text-gray-300 text-sm">Projects Completed</p>
+                                <p className="dark:text-gray-300 text-black text-sm">Projects Completed</p>
                             </div>
                             <div className="text-center p-6 bg-gradient-to-br from-blue-900/20 to-black/50 rounded-xl border border-blue-500/30">
                                 <div className="text-3xl font-bold text-blue-400 mb-2">25+</div>
-                                <p className="text-gray-300 text-sm">Happy Clients</p>
+                                <p className="dark:text-gray-300 text-black text-sm">Happy Clients</p>
                             </div>
                             <div className="text-center p-6 bg-gradient-to-br from-green-900/20 to-black/50 rounded-xl border border-green-500/30">
                                 <div className="text-3xl font-bold text-green-400 mb-2">100%</div>
-                                <p className="text-gray-300 text-sm">Satisfaction Rate</p>
+                                <p className="dark:text-gray-300 text-black text-sm">Satisfaction Rate</p>
                             </div>
                             <div className="text-center p-6 bg-gradient-to-br from-purple-900/20 to-black/50 rounded-xl border border-purple-500/30">
                                 <div className="text-3xl font-bold text-purple-400 mb-2">24/7</div>
-                                <p className="text-gray-300 text-sm">Support</p>
+                                <p className="dark:text-gray-300 text-black text-sm">Support</p>
                             </div>
                         </div>
                     </div>
@@ -279,7 +279,7 @@ export default function Projects() {
                         <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-6 font-title">
                             Ready to Start Your Project?
                         </h2>
-                        <p className="text-gray-300 text-lg mb-8 font-paragraph">
+                        <p className="dark:text-gray-300 text-black text-lg mb-8 font-paragraph">
                             Let's collaborate and bring your creative vision to life with our expertise and innovation.
                         </p>
 

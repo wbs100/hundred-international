@@ -193,7 +193,7 @@ const Team = () => {
                                                 style={{ color: '#f97316' }}>
                                                 {member.name}
                                             </h3>
-                                            <p className="text-gray-300 text-sm font-semibold mb-1">{member.title}</p>
+                                            <p className="dark:text-gray-300 text-black text-sm font-semibold mb-1">{member.title}</p>
                                             {member.subtitle && (
                                                 <p className="text-gray-400 text-xs mb-3">{member.subtitle}</p>
                                             )}
@@ -250,7 +250,7 @@ const Team = () => {
                                                 style={{ color: '#f97316' }}>
                                                 {member.name}
                                             </h3>
-                                            <p className="text-gray-300 text-sm font-semibold mb-3">{member.title}</p>
+                                            <p className="dark:text-gray-300 text-black text-sm font-semibold mb-3">{member.title}</p>
                                             <p className="text-gray-400 text-sm leading-relaxed flex-grow">{member.description}</p>
                                         </div>
                                     </div>
@@ -263,7 +263,7 @@ const Team = () => {
                 {/* Mission Statement Section */}
                 <div className="max-w-6xl mx-auto mb-20 px-4">
                     <div className="text-center space-y-8">
-                        <p className="text-gray-300 text-base md:text-lg leading-relaxed max-w-5xl mx-auto">
+                        <p className="dark:text-gray-300 text-black text-base md:text-lg leading-relaxed max-w-5xl mx-auto">
                             100 International is a pioneering remote-based company with a mission to empower individuals and businesses to 
                             thrive in the global marketplace. Our core goal is to create platforms that help platforms flourish, offering robust 
                             support to new and existing ventures. We aim to inspire entrepreneurial growth by teaching individuals everything 

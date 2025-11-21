@@ -98,7 +98,7 @@ const BreadcrumbHero = ({
                         {crumb.href ? (
                             <a 
                                 href={crumb.href}
-                                className="text-gray-300 hover:text-orange-400 transition-colors duration-300"
+                                className="dark:text-gray-300 text-black hover:text-orange-400 transition-colors duration-300"
                             >
                                 {crumb.label}
                             </a>
@@ -185,10 +185,10 @@ const BreadcrumbHero = ({
                         </h1>
                         
                         <div className="mb-8 scroll-animate delay-200">
-                            {/* <h2 className="text-xl md:text-2xl font-medium text-gray-300 mb-4">
+                            {/* <h2 className="text-xl md:text-2xl font-medium dark:text-gray-300 text-black mb-4">
                                 NATIVE & <span className="text-orange-400 font-bold">CROSS-PLATFORM</span>
                             </h2> */}
-                            <p className="text-lg md:text-xl text-gray-300 max-w-2xl leading-relaxed">
+                            <p className="text-lg md:text-xl dark:text-gray-300 text-black max-w-2xl leading-relaxed">
                                 {subtitle}
                             </p>
                         </div>
