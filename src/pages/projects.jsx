@@ -103,7 +103,7 @@ export default function Projects() {
             <CustomHR variant="gradient" />
 
             {/* Portfolio Section */}
-            <section className="py-16 bg-black text-white">
+            <section className="py-16 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-7xl mx-auto">
 
@@ -267,7 +267,7 @@ export default function Projects() {
             <CustomHR variant="gradient" />
 
             {/* Call to Action Section */}
-            <section className="py-16 bg-black text-white relative overflow-hidden">
+            <section className="py-16 dark:bg-black dark:text-white relative overflow-hidden">
                 {/* Background Pattern */}
                 <div className="absolute inset-0 opacity-5">
                     <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>

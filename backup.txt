@@ -1,7 +1,7 @@
 {/* from adv page */}
 
             {/* Express AI Content Pricing Section (hidden) */}
-            <section className="py-16 bg-black text-white hidden">
+            <section className="py-16 dark:bg-black dark:text-white hidden">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 

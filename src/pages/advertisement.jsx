@@ -27,7 +27,7 @@ export default function Advertisement() {
             />
 
             {/* Advertising Package Descriptions Section */}
-            <section className="py-16 bg-black text-white">
+            <section className="py-16 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
@@ -45,7 +45,7 @@ export default function Advertisement() {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
 
                             {/* Package 1: The Launchpad */}
-                            <div className="bg-gradient-to-br from-green-900/20 to-black/50 rounded-2xl p-8 border border-green-500/30 relative overflow-hidden scroll-animate delay-100">
+                            <div className="dark:bg-gradient-to-br from-green-900/20 to-black/50 rounded-2xl p-8 border border-green-500/30 relative overflow-hidden scroll-animate delay-100">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
@@ -79,7 +79,7 @@ export default function Advertisement() {
                             </div>
 
                             {/* Package 2: The Accelerator */}
-                            <div className="bg-gradient-to-br from-blue-900/20 to-black/50 rounded-2xl p-8 border border-blue-500/30 relative overflow-hidden scroll-animate delay-200">
+                            <div className="dark:bg-gradient-to-br from-blue-900/20 to-black/50 rounded-2xl p-8 border border-blue-500/30 relative overflow-hidden scroll-animate delay-200">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
@@ -113,7 +113,7 @@ export default function Advertisement() {
                             </div>
 
                             {/* Package 3: The Dominator */}
-                            <div className="bg-gradient-to-br from-purple-900/20 to-black/50 rounded-2xl p-8 border border-purple-500/30 relative overflow-hidden scroll-animate delay-300">
+                            <div className="dark:bg-gradient-to-br from-purple-900/20 to-black/50 rounded-2xl p-8 border border-purple-500/30 relative overflow-hidden scroll-animate delay-300">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
@@ -154,7 +154,7 @@ export default function Advertisement() {
             <CustomHR variant="gradient" />
 
             {/* Extended & Custom Ad Rates Section */}
-            <section className="py-16 bg-black text-white">
+            <section className="py-16 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
@@ -172,7 +172,7 @@ export default function Advertisement() {
                             {/* Extended Rates Grid */}
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                                 {/* 1 Minute Ad */}
-                                <div className="bg-gradient-to-br from-purple-900/20 to-black/50 rounded-2xl p-6 border border-purple-500/30 relative overflow-hidden scroll-animate delay-100">
+                                <div className="dark:bg-gradient-to-br from-purple-900/20 to-black/50 rounded-2xl p-6 border border-purple-500/30 relative overflow-hidden scroll-animate delay-100">
                                     <div className="absolute top-0 right-0 w-24 h-24 opacity-10">
                                         <div className="w-full h-full bg-purple-500 rounded-full blur-2xl"></div>
                                     </div>
@@ -186,7 +186,7 @@ export default function Advertisement() {
                                 </div>
 
                                 {/* 1.5 Minute Ad */}
-                                <div className="bg-gradient-to-br from-pink-900/20 to-black/50 rounded-2xl p-6 border border-pink-500/30 relative overflow-hidden scroll-animate delay-200">
+                                <div className="dark:bg-gradient-to-br from-pink-900/20 to-black/50 rounded-2xl p-6 border border-pink-500/30 relative overflow-hidden scroll-animate delay-200">
                                     <div className="absolute top-0 right-0 w-24 h-24 opacity-10">
                                         <div className="w-full h-full bg-pink-500 rounded-full blur-2xl"></div>
                                     </div>
@@ -200,7 +200,7 @@ export default function Advertisement() {
                                 </div>
 
                                 {/* 2 Minute Ad */}
-                                <div className="bg-gradient-to-br from-indigo-900/20 to-black/50 rounded-2xl p-6 border border-indigo-500/30 relative overflow-hidden scroll-animate delay-300">
+                                <div className="dark:bg-gradient-to-br from-indigo-900/20 to-black/50 rounded-2xl p-6 border border-indigo-500/30 relative overflow-hidden scroll-animate delay-300">
                                     <div className="absolute top-0 right-0 w-24 h-24 opacity-10">
                                         <div className="w-full h-full bg-indigo-500 rounded-full blur-2xl"></div>
                                     </div>
@@ -229,7 +229,7 @@ export default function Advertisement() {
                             {/* Premium Projects Grid */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                                 {/* Short Films Premium */}
-                                <div className="bg-gradient-to-br from-orange-900/30 to-black/50 rounded-3xl p-8 border border-orange-500/40 relative overflow-hidden scroll-animate delay-500">
+                                <div className="dark:bg-gradient-to-br from-orange-900/30 to-black/50 rounded-3xl p-8 border border-orange-500/40 relative overflow-hidden scroll-animate delay-500">
                                     <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
                                         <div className="w-full h-full bg-orange-500 rounded-full blur-3xl"></div>
                                     </div>
@@ -248,7 +248,7 @@ export default function Advertisement() {
                                 </div>
 
                                 {/* Music Videos Premium */}
-                                <div className="bg-gradient-to-br from-blue-900/30 to-black/50 rounded-3xl p-8 border border-blue-500/40 relative overflow-hidden scroll-animate delay-600">
+                                <div className="dark:bg-gradient-to-br from-blue-900/30 to-black/50 rounded-3xl p-8 border border-blue-500/40 relative overflow-hidden scroll-animate delay-600">
                                     <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
                                         <div className="w-full h-full bg-blue-500 rounded-full blur-3xl"></div>
                                     </div>
@@ -269,7 +269,7 @@ export default function Advertisement() {
 
                             {/* Important Note */}
                             <div className="mt-12 scroll-animate delay-700">
-                                <div className="bg-gradient-to-r from-green-900/30 to-teal-900/30 rounded-2xl p-6 border border-green-500/40 max-w-4xl mx-auto">
+                                <div className="dark:bg-gradient-to-r from-green-900/30 to-teal-900/30 rounded-2xl p-6 border border-green-500/40 max-w-4xl mx-auto">
                                     <div className="flex items-start gap-4">
                                         <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                             <span className="text-black text-lg">💡</span>
@@ -289,7 +289,7 @@ export default function Advertisement() {
             <CustomHR variant="gradient" />
 
             {/* Video Production Descriptions Section */}
-            <section className="py-16 bg-black text-white">
+            <section className="py-16 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
@@ -307,7 +307,7 @@ export default function Advertisement() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
                             {/* Music Videos */}
-                            <div className="bg-gradient-to-br from-orange-900/30 to-black/50 rounded-3xl p-8 border border-orange-500/40 relative overflow-hidden scroll-animate delay-100">
+                            <div className="dark:bg-gradient-to-br from-orange-900/30 to-black/50 rounded-3xl p-8 border border-orange-500/40 relative overflow-hidden scroll-animate delay-100">
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
                                     <div className="w-full h-full bg-orange-500 rounded-full blur-3xl"></div>
                                 </div>
@@ -325,7 +325,7 @@ export default function Advertisement() {
                             </div>
 
                             {/* Short Films */}
-                            <div className="bg-gradient-to-br from-blue-900/30 to-black/50 rounded-3xl p-8 border border-blue-500/40 relative overflow-hidden scroll-animate delay-200">
+                            <div className="dark:bg-gradient-to-br from-blue-900/30 to-black/50 rounded-3xl p-8 border border-blue-500/40 relative overflow-hidden scroll-animate delay-200">
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
                                     <div className="w-full h-full bg-blue-500 rounded-full blur-3xl"></div>
                                 </div>
@@ -351,7 +351,7 @@ export default function Advertisement() {
             <CustomHR variant="gradient" />
 
             {/* The Power of Our Team + AI Section */}
-            <section className="py-16 bg-black text-white">
+            <section className="py-16 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
@@ -369,7 +369,7 @@ export default function Advertisement() {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
 
                             {/* Expert AI Curation */}
-                            <div className="bg-gradient-to-br from-red-900/20 to-black/50 rounded-2xl p-8 border border-red-500/30 relative overflow-hidden scroll-animate delay-100">
+                            <div className="dark:bg-gradient-to-br from-red-900/20 to-black/50 rounded-2xl p-8 border border-red-500/30 relative overflow-hidden scroll-animate delay-100">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
@@ -393,7 +393,7 @@ export default function Advertisement() {
                             </div>
 
                             {/* Rapid Generation */}
-                            <div className="bg-gradient-to-br from-yellow-900/20 to-black/50 rounded-2xl p-8 border border-yellow-500/30 relative overflow-hidden scroll-animate delay-200">
+                            <div className="dark:bg-gradient-to-br from-yellow-900/20 to-black/50 rounded-2xl p-8 border border-yellow-500/30 relative overflow-hidden scroll-animate delay-200">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
@@ -417,7 +417,7 @@ export default function Advertisement() {
                             </div>
 
                             {/* Simple Revisions */}
-                            <div className="dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-8 border border-orange-500/30 relative overflow-hidden scroll-animate delay-300">
+                            <div className="dark:dark:bg-gradient-to-br from-orange-900/20 to-black/50 rounded-2xl p-8 border border-orange-500/30 relative overflow-hidden scroll-animate delay-300">
 
                                 {/* Background Pattern */}
                                 <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
@@ -443,7 +443,7 @@ export default function Advertisement() {
 
                         {/* Important Note */}
                         <div className="mt-12 scroll-animate delay-400">
-                            <div className="bg-gradient-to-r from-yellow-900/30 to-orange-900/30 rounded-2xl p-6 border border-yellow-500/40 relative overflow-hidden">
+                            <div className="dark:bg-gradient-to-r from-yellow-900/30 to-orange-900/30 rounded-2xl p-6 border border-yellow-500/40 relative overflow-hidden">
 
                                 {/* Warning Icon */}
                                 <div className="flex items-start gap-4">
@@ -475,7 +475,7 @@ export default function Advertisement() {
             <CustomHR variant="gradient" />
 
             {/* Sample Advertisement Videos Section */}
-            <section className="py-16 bg-black text-white">
+            <section className="py-16 dark:bg-black dark:text-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-6xl mx-auto">
 
@@ -493,7 +493,7 @@ export default function Advertisement() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
 
                             {/* Sample 1 - Product Launch (Diamond Package) */}
-                            <div className="bg-gradient-to-br from-blue-900/20 to-black/50 rounded-3xl overflow-hidden border border-blue-500/30 relative group scroll-animate delay-100">
+                            <div className="dark:bg-gradient-to-br from-blue-900/20 to-black/50 rounded-3xl overflow-hidden border border-blue-500/30 relative group scroll-animate delay-100">
 
                                 {/* Package Badge */}
                                 <div className="absolute top-4 right-4 z-30">
@@ -546,7 +546,7 @@ export default function Advertisement() {
                             </div>
 
                             {/* Sample 2 - Brand Awareness (Platinum Package) */}
-                            <div className="bg-gradient-to-br from-gray-600/20 to-black/50 rounded-3xl overflow-hidden border border-gray-400/30 relative group scroll-animate delay-200">
+                            <div className="dark:bg-gradient-to-br from-gray-600/20 to-black/50 rounded-3xl overflow-hidden border border-gray-400/30 relative group scroll-animate delay-200">
 
                                 {/* Package Badge */}
                                 <div className="absolute top-4 right-4 z-30">
@@ -605,7 +605,7 @@ export default function Advertisement() {
             <CustomHR variant="gradient" />
 
             {/* Start Your Campaign Now! Section */}
-            <section className="py-20 bg-white dark:bg-black text-black dark:text-white relative overflow-hidden">
+            <section className="py-20 bg-white border-t dark:border-none dark:bg-black text-black dark:text-white relative overflow-hidden">
                 {/* Rotating Background Element */}
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                     <div className="w-96 h-96 bg-gradient-to-br from-orange-500/20 to-orange-900/10 rounded-3xl animate-spin-slow transform rotate-45"></div>
