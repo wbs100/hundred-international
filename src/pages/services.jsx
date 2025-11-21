@@ -176,7 +176,7 @@ export default function Services() {
                     <div className="space-y-8">
 
                         {/* Web Development */}
-                        <div className="bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 scroll-animate">
+                        <div className="dark:bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 scroll-animate">
                             <div className="flex items-start gap-6 mb-6">
                                 <div className="bg-orange-500/20 p-4 rounded-full">
                                     <svg className="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -193,19 +193,19 @@ export default function Services() {
 
                             {/* Features Grid */}
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">✨ Responsive Design</div>
                                     <div className="text-gray-400 text-xs">Perfect display on all screen sizes</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">⚡ Fast Performance</div>
                                     <div className="text-gray-400 text-xs">Optimized loading speeds</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">🎨 Modern UI/UX</div>
                                     <div className="text-gray-400 text-xs">Beautiful and intuitive interfaces</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">🔍 SEO Optimized</div>
                                     <div className="text-gray-400 text-xs">Better search engine visibility</div>
                                 </div>
@@ -213,7 +213,7 @@ export default function Services() {
                         </div>
 
                         {/* Web Applications */}
-                        <div className="bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 scroll-animate delay-100">
+                        <div className="dark:bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 scroll-animate delay-100">
                             <div className="flex items-start gap-6 mb-6">
                                 <div className="bg-orange-500/20 p-4 rounded-full">
                                     <svg className="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -230,19 +230,19 @@ export default function Services() {
 
                             {/* Features Grid */}
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">🔐 User Authentication</div>
                                     <div className="text-gray-400 text-xs">Secure login and access control</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">🗄️ Database Integration</div>
                                     <div className="text-gray-400 text-xs">Robust data management systems</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">⚡ Real-time Features</div>
                                     <div className="text-gray-400 text-xs">Live updates and notifications</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">📊 Admin Dashboard</div>
                                     <div className="text-gray-400 text-xs">Comprehensive management tools</div>
                                 </div>
@@ -250,7 +250,7 @@ export default function Services() {
                         </div>
 
                         {/* Mobile Applications */}
-                        <div className="bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 scroll-animate delay-200">
+                        <div className="dark:bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 scroll-animate delay-200">
                             <div className="flex items-start gap-6 mb-6">
                                 <div className="bg-orange-500/20 p-4 rounded-full">
                                     <svg className="w-8 h-8 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -267,19 +267,19 @@ export default function Services() {
 
                             {/* Features Grid */}
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">📱 iOS & Android</div>
                                     <div className="text-gray-400 text-xs">Native and cross-platform support</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">🔔 Push Notifications</div>
                                     <div className="text-gray-400 text-xs">Engage users with timely alerts</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">📴 Offline Support</div>
                                     <div className="text-gray-400 text-xs">Works without internet connection</div>
                                 </div>
-                                <div className="bg-black/30 p-4 rounded-lg border border-orange-500/10">
+                                <div className="dark:bg-black/30 p-4 rounded-lg border border-orange-500/10">
                                     <div className="text-orange-400 text-sm font-medium mb-1">🏪 App Store Ready</div>
                                     <div className="text-gray-400 text-xs">Full submission assistance</div>
                                 </div>
@@ -317,7 +317,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/30 transition-all duration-300">
                                         <div className="text-2xl">⚛️</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">REACT</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">REACT</h4>
                                 </div>
 
                                 {/* Vue.js */}
@@ -325,7 +325,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-green-500/20 flex items-center justify-center group-hover:bg-green-500/30 transition-all duration-300">
                                         <div className="text-2xl">💚</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">VUE.JS</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">VUE.JS</h4>
                                 </div>
 
                                 {/* Angular */}
@@ -333,7 +333,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-red-500/20 flex items-center justify-center group-hover:bg-red-500/30 transition-all duration-300">
                                         <div className="text-2xl text-red-400 font-bold">A</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">ANGULAR</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">ANGULAR</h4>
                                 </div>
 
                                 {/* Next.js */}
@@ -341,7 +341,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-gray-500/20 flex items-center justify-center group-hover:bg-gray-500/30 transition-all duration-300">
                                         <div className="text-2xl">▲</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">NEXT.JS</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">NEXT.JS</h4>
                                 </div>
 
                                 {/* React Native */}
@@ -349,7 +349,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/30 transition-all duration-300">
                                         <div className="text-2xl">📱</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">REACT NATIVE</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">REACT NATIVE</h4>
                                 </div>
 
                                 {/* Flutter */}
@@ -357,7 +357,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-blue-400/20 flex items-center justify-center group-hover:bg-blue-400/30 transition-all duration-300">
                                         <div className="text-2xl">🎯</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">FLUTTER</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">FLUTTER</h4>
                                 </div>
                             </div>
                         </div>
@@ -372,7 +372,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-green-500/20 flex items-center justify-center group-hover:bg-green-500/30 transition-all duration-300">
                                         <div className="text-2xl">🟢</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">NODE.JS</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">NODE.JS</h4>
                                 </div>
 
                                 {/* Python */}
@@ -380,7 +380,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-yellow-500/20 flex items-center justify-center group-hover:bg-yellow-500/30 transition-all duration-300">
                                         <div className="text-2xl">🐍</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">PYTHON</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">PYTHON</h4>
                                 </div>
 
                                 {/* PHP */}
@@ -388,7 +388,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-purple-500/20 flex items-center justify-center group-hover:bg-purple-500/30 transition-all duration-300">
                                         <div className="text-2xl">🐘</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">PHP</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">PHP</h4>
                                 </div>
 
                                 {/* .NET Core */}
@@ -396,7 +396,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-blue-600/20 flex items-center justify-center group-hover:bg-blue-600/30 transition-all duration-300">
                                         <div className="text-2xl">💎</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">.NET CORE</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">.NET CORE</h4>
                                 </div>
 
                                 {/* Java */}
@@ -404,7 +404,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-orange-600/20 flex items-center justify-center group-hover:bg-orange-600/30 transition-all duration-300">
                                         <div className="text-2xl">☕</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">JAVA</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">JAVA</h4>
                                 </div>
 
                                 {/* Go */}
@@ -412,7 +412,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-cyan-500/20 flex items-center justify-center group-hover:bg-cyan-500/30 transition-all duration-300">
                                         <div className="text-2xl">🔵</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">GO</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">GO</h4>
                                 </div>
                             </div>
                         </div>
@@ -427,7 +427,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-orange-500/20 flex items-center justify-center group-hover:bg-orange-500/30 transition-all duration-300">
                                         <div className="text-2xl">☁️</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">AWS</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">AWS</h4>
                                 </div>
 
                                 {/* Google Cloud */}
@@ -435,7 +435,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/30 transition-all duration-300">
                                         <div className="text-2xl">☁️</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">GOOGLE CLOUD</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">GOOGLE CLOUD</h4>
                                 </div>
 
                                 {/* Azure */}
@@ -443,7 +443,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-blue-600/20 flex items-center justify-center group-hover:bg-blue-600/30 transition-all duration-300">
                                         <div className="text-2xl">💙</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">AZURE</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">AZURE</h4>
                                 </div>
 
                                 {/* Docker */}
@@ -451,7 +451,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-blue-400/20 flex items-center justify-center group-hover:bg-blue-400/30 transition-all duration-300">
                                         <div className="text-2xl">🐳</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">DOCKER</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">DOCKER</h4>
                                 </div>
 
                                 {/* Kubernetes */}
@@ -459,7 +459,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-blue-600/20 flex items-center justify-center group-hover:bg-blue-600/30 transition-all duration-300">
                                         <div className="text-2xl">⚓</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">KUBERNETES</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">KUBERNETES</h4>
                                 </div>
 
                                 {/* Jenkins */}
@@ -467,7 +467,7 @@ export default function Services() {
                                     <div className="w-16 h-16 mb-4 rounded-lg bg-red-500/20 flex items-center justify-center group-hover:bg-red-500/30 transition-all duration-300">
                                         <div className="text-2xl">🔧</div>
                                     </div>
-                                    <h4 className="font-bold text-white text-sm">JENKINS</h4>
+                                    <h4 className="font-bold dark:text-white text-sm">JENKINS</h4>
                                 </div>
                             </div>
                         </div>
@@ -593,9 +593,9 @@ export default function Services() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
                         {/* Basic Website */}
-                        <div className="bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 hover:-translate-y-2 scroll-animate">
+                        <div className="dark:bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 hover:-translate-y-2 scroll-animate">
                             <div className="text-center mb-8">
-                                <h3 className="text-2xl font-bold text-white mb-2 font-title">Basic Website</h3>
+                                <h3 className="text-2xl font-bold dark:text-white mb-2 font-title">Basic Website</h3>
                                 <div className="text-4xl font-bold text-orange-400 mb-2">LKR 200,000</div>
                                 <div className="text-gray-400 text-sm">Onwards</div>
                             </div>
@@ -639,14 +639,14 @@ export default function Services() {
                         </div>
 
                         {/* Web Application - Best Value */}
-                        <div className="bg-gradient-to-br from-orange-500/20 to-orange-900/30 rounded-2xl p-8 border-2 border-orange-500 hover:border-orange-400 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-100 relative">
+                        <div className="dark:bg-gradient-to-br from-orange-500/20 to-orange-900/30 rounded-2xl p-8 border-2 border-orange-500 hover:border-orange-400 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-100 relative">
                             {/* Best Value Badge */}
                             <div className="absolute -top-4 right-6 bg-orange-500 text-black px-4 py-2 rounded-full text-sm font-bold transform rotate-12">
                                 Best Value
                             </div>
 
                             <div className="text-center mb-8">
-                                <h3 className="text-2xl font-bold text-white mb-2 font-title">Web Application</h3>
+                                <h3 className="text-2xl font-bold dark:text-white mb-2 font-title">Web Application</h3>
                                 <div className="text-4xl font-bold text-orange-400 mb-2">LKR 500,000</div>
                                 <div className="text-gray-400 text-sm">Onwards</div>
                             </div>
@@ -696,9 +696,9 @@ export default function Services() {
                         </div>
 
                         {/* Mobile App */}
-                        <div className="bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-200">
+                        <div className="dark:bg-gradient-to-br from-orange-900/10 to-black/50 rounded-2xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300 hover:-translate-y-2 scroll-animate delay-200">
                             <div className="text-center mb-8">
-                                <h3 className="text-2xl font-bold text-white mb-2 font-title">Mobile App</h3>
+                                <h3 className="text-2xl font-bold dark:text-white mb-2 font-title">Mobile App</h3>
                                 <div className="text-4xl font-bold text-orange-400 mb-2">LKR 800,000</div>
                                 <div className="text-gray-400 text-sm">Onwards</div>
                             </div>
